@@ -60,15 +60,15 @@ const phones = (() => {
 
     const banners = [
         {
-            img: './assets/banner/banner1.jpg',
+            img: './assets/img/banner1.jpg',
             link: '#'
         },
         {
-            img: './assets/banner/banner2.jpg',
+            img: './assets/img/banner2.jpg',
             link: '#'
         },
         {
-            img: './assets/banner/banner3.jpg',
+            img: './assets/img/banner3.jpg',
             link: '#'
         },
     ]
