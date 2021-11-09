@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trang chủ</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/css/all.min.css">
@@ -16,6 +18,7 @@
     <link rel="stylesheet" href="./assets/css/mobile.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
+
 <body>
     <div class="main">
         <div class="header">
@@ -73,9 +76,10 @@
                             <i class="header-mobile-menu__icon fas fa-bars"></i>
                         </div>
 
-                        <!-- <a href="#" class="header-logo__link">
-                            <div class="header-logo__img"></div>
-                        </a> -->
+                        <a href="#" class="header-logo__link">
+
+                            <div class="header-logo__img">TG Mobile</div>
+                        </a>
 
                         <div class="header-search hide-on-mobile-and-tablet">
                             <input type="text" placeholder="Nhập tên sản phẩm..." class="header-search__input">
@@ -86,7 +90,7 @@
 
                             <!-- Menu Mobile -->
                             <li class="header-menu__item">
-                                <a href="" class="header-menu__item-link">
+                                <a href="mobile.html" class="header-menu__item-link">
                                     <i class="header-menu__item-icon fas fa-mobile-alt"></i>
                                     <p class="header-menu__item-name">Điện thoại</p>
                                 </a>
@@ -971,7 +975,8 @@
             <nav class="header-mobile-nav">
                 <div class="header-mobile-nav__heading">
                     <a href="#" class="header-mobile-nav__heading-link">
-                        <div class="header-mobile-nav__logo"></div>
+                        <div class="header-mobile-nav__logo">
+                            TG Mobile</div>
                     </a>
                     <i class="header-mobile-nav__close fas fa-times"></i>
                 </div>
@@ -1259,61 +1264,179 @@
                 </ul>
             </nav>
         </div>
+
         <div class="container">
             <div class="grid wide">
-                <div class="col l-12 m-12 c-12">
-                    <div class="container-filter">
-                        <div class="container-filter__item">
-                            Mức giá
-                            <i class="container-filter__icon-down fas fa-chevron-down"></i>
-                            <ul class="container-filter__list">
-                                <li class="container-filter__list-item">
-                                    Tất cả
-                                </li>
-                                <li class="container-filter__list-item">
-                                    Dưới 1 triệu
-                                </li>
-                                <li class="container-filter__list-item">
-                                    Dưới 2 triệu
-                                </li>
-                                <li class="container-filter__list-item">
-                                    Dưới 3 triệu
-                                </li>
-                                <li class="container-filter__list-item">
-                                    Dưới 4 triệu
-                                </li>
-                                <li class="container-filter__list-item">
-                                    Dưới 5 triệu
-                                </li>
-                                <li class="container-filter__list-item">
-                                    Trên 10 triệu
-                                </li>
-                            </ul>
-                        </div>
+                <div class="container">
+                    <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a itemprop="item" href="/"><span itemprop="name" content="Trang chủ"><i
+                                        class="fas fa-home"></i></i> Trang chủ</span></a>
+                            <meta itemprop="position" content="1" />
+                        </li>
 
-                        <div class="container-filter__item">
-                            Hãng sản xuất
-                            <i class="container-filter__icon-down fas fa-chevron-down"></i>
-                            <ul class="container-filter__list">
-                                <li class="container-filter__list-item">
-                                    
-                                </li>
-                                <li class="container-filter__list-item">
-                                    Phổ biến
-                                </li>
-                                <li class="container-filter__list-item">
-                                    Khuyến mãi
-                                </li>
-                                <li class="container-filter__list-item">
-                                    Hàng mới về
-                                </li>
-                            </ul>
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <i class="fa fa-angle-right"></i> <a itemprop="item" href="/mobile.html"
+                                title="Điện thoại di động gi&#225; rẻ, ch&#237;nh h&#227;ng - Ho&#224;ng H&#224; Mobile"
+                                class="actived"><span itemprop="name" content="Điện thoại">Điện thoại</span></a>
+                            <meta itemprop="position" content="2" />
+                        </li>
+                    </ol>
+                </div>
+                <div class="header__container">
+                    <h3>Điện thoại</h3>
+                </div>
+                <ul class="container-filter__list">
+                    
+                    <li class="container-filter__item">
+                        Mức giá
+                        <i class="container-filter__icon-down fas fa-chevron-down"></i>
+                        <ul class="container-filter__price">
+                            <li class="container-filter-item">
+                                Dưới 1 triệu
+                            </li>
+                            <li class="container-filter-item">
+                                Dưới 2 triệu
+                            </li>
+                            <li class="container-filter-item">
+                                Dưới 3 triệu
+                            </li>
+                            <li class="container-filter-item">
+                                Dưới 4 triệu
+                            </li>
+                            <li class="container-filter-item">
+                                Dưới 5 triệu
+                            </li>
+                            <li class="container-filter-item">
+                                Dưới 7 triệu
+                            </li>
+                            <li class="container-filter-item">
+                                Dưới 10 triệu
+                            </li>
+                            <li class="container-filter-item">
+                                Trên 10 triệu
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="container-filter__item">
+                        Hãng sản xuất
+                        <i class="container-filter__icon-down fas fa-chevron-down"></i>
+                        <ul class="container-filter__manufacturer">
+                            <li class="container-filter-item-manufacturer">
+                                Apple
+                            </li>
+                            <li class="container-filter-item-manufacturer">
+                                Xiaomi
+                            </li>
+                            <li class="container-filter-item-manufacturer">
+                                Samsung
+                            </li>
+                            <li class="container-filter-item-manufacturer">
+                                Oppo
+                            </li>
+                            <li class="container-filter-item-manufacturer">
+                                OnePlus
+                            </li>
+                            <li class="container-filter-item-manufacturer">
+                                Vivo
+                            </li>
+                            <li class="container-filter-item-manufacturer">
+                                LG
+                            </li>
+                            <li class="container-filter-item-manufacturer">
+                                Google
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="container-filter__item">
+                        Hệ điều hành
+                        <i class="container-filter__icon-down fas fa-chevron-down"></i>
+                        <ul class="container-filter__price">
+                            <li class="container-filter-item">
+                                Android
+                            </li>
+                            <li class="container-filter-item">
+                                IOS
+                            </li>
+                            <li class="container-filter-item">
+                                Window Phone
+                            </li>
+                            <li class="container-filter-item">
+                                HDH Khác
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="container-filter__item">
+                        Màn hình
+                        <i class="container-filter__icon-down fas fa-chevron-down"></i>
+                        <ul class="container-filter__price">
+                            <li class="container-filter-item">
+                                Dưới 3"
+                            </li>
+                            <li class="container-filter-item">
+                                Khoảng 3"
+                            </li>
+                            <li class="container-filter-item">
+                                Khoảng 4"
+                            </li>
+                            <li class="container-filter-item">
+                                Khoảng 5"
+                            </li>
+                            <li class="container-filter-item">
+                                Khoảng 6"
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li class="container-filter__item">
+                        Tính năng
+                        <i class="container-filter__icon-down fas fa-chevron-down"></i>
+                        <ul class="container-filter__price">
+                            <li class="container-filter-item">
+                                Băng tầng 4G 5G
+                            </li>
+                            <li class="container-filter-item">
+                                2 Sim 2 Sóng
+                            </li>
+                            <li class="container-filter-item">
+                                Smart Phone
+                            </li>
+                            <li class="container-filter-item">
+                                Wifi
+                            </li>
+                            <li class="container-filter-item">
+                                Cảm ứng
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="container-filter__item">
+                        Sắp xếp theo giá
+                        <i class="container-filter__icon-down fas fa-chevron-down"></i>
+                        <ul class="container-filter__price">
+                            <li class="container-filter-item">
+                                Giá cao đến thấp
+                            </li>
+                            <li class="container-filter-item">
+                                Giá thấp đến cao
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="col l-12 m-12 c-12">
+                    <div class="container-product">
+                        <div class="row no-gutters phone-products">
+                            <!-- Thêm từng điện thoại vào -->
                         </div>
                     </div>
                 </div>
-
+                <div class="col l-12 m-12 c-12">
+                    <div class="container-view-more">
+                        <a href="#" class="container-btn-extend">Xem thêm điện thoại</a>
+                    </div>
+                </div>
             </div>
         </div>
+
         <div class="footer">
             <div class="grid wide">
                 <div class="row">
@@ -1553,7 +1676,83 @@
         <a href="#" class="go-to-chat">
             <i class="go-to-chat__icon fab fa-facebook-messenger"></i>
         </a>
-
     </div>
+
+    <script src="./js/phone.js"></script>
+    <script src="./js/tool.js"></script>
+    <script src="./js/fix.js"></script>
+    <script src="./js/unlock.js"></script>
+    <script>
+        const $ = document.querySelector.bind(document);
+        const $$ = document.querySelectorAll.bind(document);
+
+        const event = (() => {
+
+            return {
+                handleEvent() {
+                    // Search in mobile
+                    const mobileSearchBtn = $('.header-mobile-search');
+
+                    mobileSearchBtn.onclick = () => {
+                        $('.header-mobile-search-box__wrap').classList.toggle('active');
+                    };
+
+                    // Menu nav in mobile 
+                    const mobileMenuBtn = $('.header-mobile-menu');
+                    const overlayMobileScreen = $('.header-mobile-nav__overlay');
+                    const mobileNav = $('.header-mobile-nav');
+                    const mobileCloseNavBtn = $('.header-mobile-nav__close');
+
+                    function handleMobileNav() {
+                        overlayMobileScreen.classList.toggle('active');
+                        mobileNav.classList.toggle('active');
+                    };
+
+                    mobileMenuBtn.onclick = () => {
+                        handleMobileNav();
+                    };
+
+                    overlayMobileScreen.onclick = () => {
+                        handleMobileNav();
+                    };
+
+                    mobileCloseNavBtn.onclick = () => {
+                        handleMobileNav()
+                    };
+
+                    // Menu subnav in mobile 
+                    const mobileSubNavs = $$('.header-mobile-nav__item-select');
+
+                    Array.from(mobileSubNavs).forEach((mobileSubNav) => {
+                        mobileSubNav.onclick = () => {
+                            mobileSubNav.classList.toggle('active');
+                            mobileSubNav.firstElementChild.classList.toggle('active');
+                            if (mobileSubNav.nextElementSibling) {
+                                mobileSubNav.nextElementSibling.classList.toggle('active');
+                            };
+                        };
+                    });
+
+                    // Scroll Screen 
+                    const goToTopBtn = $('.go-to-top');
+                    document.onscroll = () => {
+                        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+                        if (scrollTop > 120) {
+                            goToTopBtn.classList.add('active');
+                        } else {
+                            goToTopBtn.classList.remove('active');
+                        }
+                    };
+                },
+                init() {
+                    this.handleEvent();
+                }
+            }
+
+        })();
+
+        event.init();
+    </script>
 </body>
+
 </html>
