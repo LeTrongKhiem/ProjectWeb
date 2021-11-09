@@ -1,11 +1,11 @@
 const phones = (() => {
     const products = [
         {
-            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2021/07/w300/iphone-xs-max-den.jpg)',
-            name: 'iPhone XS Max Cũ (64GB, 256GB) - Fullbox',
+            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2021/04/w150/xiaomi-redmi-k40-pro-2-1.jpg)',
+            name: 'Xiaomi Redmi K40 Pro (K40 Pro+)',
             price: '8.750.000 đ',
             markerList: ['hot', 'new'],
-            linkProduct: './trangitem.html',
+            linkProduct: '#',
             linkGuarantee: '#',
         },
         {
@@ -121,7 +121,7 @@ const phones = (() => {
                                 <a href=${product.linkProduct} class="container-product__item-link">
                                     <div class="container-product-guarantee__heading">
                                         <img src="https://mobilecity.vn/public/assets/img/icon-mobilecity-care.png" alt="Guarantee" class="container-product-guarantee__heading-img">
-                                        <h3 class="container-product-guarantee__heading-text">Mobile Care</h3>
+                                        <h3 class="container-product-guarantee__heading-text">MobileCity Care</h3>
                                     </div>
 
                                     <ul class="container-product-guarantee__list">
@@ -163,7 +163,7 @@ const phones = (() => {
                                 </span>
                                 áp dụng HSSV mua BHV tại 
                                 <span class="container-product__item-gift--highlight">
-                                    Thủ Đức
+                                    42 phố Vọng
                                 </span>
                             </li>
                         </ul>
