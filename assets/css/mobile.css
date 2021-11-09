@@ -2,10 +2,6 @@
     overflow: hidden;
 }
 
-ul {
-    list-style: none;
-}
-
 /* Header */
 .header {
     position: relative;
@@ -145,10 +141,9 @@ ul {
 .header-logo__img {
     width: 220px;
     height: 39px;
-    font-size: 45px;
+    background-image: url(https://mobilecity.vn/public/assets/img/all_icon.png);
     background-position: 0 -42px;
-    margin: 47px 16px 32px 0;
-    color: var(--white-color);
+    margin: 14px 16px 32px 0;
 }
 
 .header-search {
@@ -469,23 +464,22 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #015649;
+    background-color: rgb(224, 185, 101);
 }
 
 .header-mobile-nav__heading-link {
     text-decoration: none;
     background-color: transparent;
-    display: flex;
-    margin: 0 auto;
 }
 
 .header-mobile-nav__logo {
+    width: 220px;
+    height: 39px;
+    margin-bottom: 8px;
     transform: scale(0.8);
     transform-origin: left;
+    background-image: url(https://mobilecity.vn/public/assets/img/all_icon.png);
     background-position: 0 -42px;
-    font-size: 4rem;
-    color: var(--white-color);
-    font-weight: 500;
 }
 
 .header-mobile-nav__close {
@@ -538,7 +532,7 @@ ul {
 }
 
 .header-mobile-nav__item-select.active {
-    color: #015649;
+    color: rgb(224, 185, 101);
     font-weight: 600;
 }
 
@@ -586,7 +580,7 @@ ul {
 }
 
 .header-mobile-sub-nav__item-link:hover {
-    color: #015649;
+    color: rgb(224, 185, 101);
 }
 
 .header-mobile-nav__item-select {
@@ -810,13 +804,15 @@ ul {
     list-style: none;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
     background-color: var(--white-color);
-    display: none;
+    /* display: none; */
     cursor: pointer;
     z-index: 1;
+    width: 200px;
 }
 
 .container-filter__list-item {
-    padding: 4px 8px;
+    padding: 4px 16px;
+    width: 200px;
 }
 
 .container-filter__list-item:hover {
@@ -1363,7 +1359,7 @@ ul {
 
 .footer-nav-mobile__icon {
     font-size: 2.4rem;
-    color:#015649;
+    color: #f69226;
 }
 
 .footer-nav-mobile__title {
