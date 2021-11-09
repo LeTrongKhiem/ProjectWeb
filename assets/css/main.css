@@ -2,6 +2,10 @@
     overflow: hidden;
 }
 
+ul {
+    list-style: none;
+}
+
 /* Header */
 .header {
     position: relative;
@@ -141,9 +145,10 @@
 .header-logo__img {
     width: 220px;
     height: 39px;
-    background-image: url(https://mobilecity.vn/public/assets/img/all_icon.png);
+    font-size: 45px;
     background-position: 0 -42px;
-    margin: 14px 16px 32px 0;
+    margin: 47px 16px 32px 0;
+    color: var(--white-color);
 }
 
 .header-search {
