@@ -56,19 +56,44 @@ const phones = (() => {
             linkProduct: '#',
             linkGuarantee: '#',
         },
+        {
+            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2019/09/w150/iphone-11-3.jpg)',
+            name: 'iPhone 11 (64GB, 256GB)',
+            price: '11.450.000 đ',
+            markerList: [],
+            linkProduct: '#',
+            linkGuarantee: '#',
+        },
+        {
+            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2019/09/w150/iphone-11-3.jpg)',
+            name: 'iPhone 11 (64GB, 256GB)',
+            price: '11.450.000 đ',
+            markerList: [],
+            linkProduct: '#',
+            linkGuarantee: '#',
+        },
+        {
+            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2019/09/w150/iphone-11-3.jpg)',
+            name: 'iPhone 11 (64GB, 256GB)',
+            price: '11.450.000 đ',
+            markerList: [],
+            linkProduct: '#',
+            linkGuarantee: '#',
+        },
+        
     ];
 
     const banners = [
         {
-            img: './assets/banner/banner1.jpg',
+            img: './assets/img/banner1.jpg',
             link: '#'
         },
         {
-            img: './assets/banner/banner2.jpg',
+            img: './assets/img/banner2.jpg',
             link: '#'
         },
         {
-            img: './assets/banner/banner3.jpg',
+            img: './assets/img/banner3.jpg',
             link: '#'
         },
     ]
