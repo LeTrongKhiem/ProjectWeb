@@ -2,10 +2,6 @@
     overflow: hidden;
 }
 
-ul {
-    list-style: none;
-}
-
 /* Header */
 .header {
     position: relative;
@@ -143,12 +139,12 @@ ul {
 }
 
 .header-logo__img {
-    width: 220px;
-    height: 39px;
-    font-size: 45px;
+    font-size: 3.6rem;
     background-position: 0 -42px;
-    margin: 47px 16px 32px 0;
+    margin-right: 12px;
     color: var(--white-color);
+    display: flex;
+    align-items: center;
 }
 
 .header-search {
