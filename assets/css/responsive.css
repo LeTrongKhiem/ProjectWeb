@@ -89,6 +89,13 @@
     .header-nav {
         margin-left: 30px;
     }
+    .container-filter__item{
+        padding: 7px 0;
+        
+    }
+    .container-filter__item:first-child{
+        margin-left: -30px;
+    }
 }
 
 /* Mobile */
