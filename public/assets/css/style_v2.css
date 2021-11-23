@@ -249,7 +249,7 @@
 }
 
 .header-top .logs ul li.v2-username ul.v2-profile li:hover a {
-    color: #c69a39;
+    color: rgb(50, 155, 139);
     font-weight: 700
 }
 
@@ -289,14 +289,14 @@
 .v2-info-checkout .choose-get-goods p {
     width: 60%;
     flex: 0 0 60%;
-    color: #c69a39;
+    color: rgb(50, 155, 139);
     font-size: 18px;
     font-weight: 700;
     line-height: 23px
 }
 
 .v2-info-checkout .store-list p {
-    color: #c69a39;
+    color: rgb(50, 155, 139);
     font-size: 18px;
     font-weight: 700;
     line-height: 23px;
@@ -306,7 +306,7 @@
 .v2-info-checkout .method p {
     width: 60%;
     flex: 0 0 60%;
-    color: #c69a39;
+    color: rgb(50, 155, 139);
     font-size: 18px;
     font-weight: 700;
     line-height: 23px
@@ -350,7 +350,7 @@
 
 .v2-info-checkout .info-checkout p {
     width: 100%;
-    color: #c69a39;
+    color: rgb(50, 155, 139);
     font-size: 18px;
     font-weight: 700;
     line-height: 23px;
