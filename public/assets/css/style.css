@@ -359,8 +359,8 @@ ul {
 .close-lightbox-btn {
     right: 0;
     top: 0;
-    background-color: #c69a39;
-    border: 2px solid #c69a39;
+    background-color: rgb(50, 155, 139);
+    border: 2px solid rgb(50, 155, 139);
     padding: 10px 15px;
     color: #fff;
     cursor: pointer;
@@ -426,7 +426,7 @@ header {
 }
 
 .header-top .location .location-dropdown .location-dropdown-list ul {
-    background: #c69a39 none repeat scroll 0 0;
+    background: rgb(50, 155, 139) none repeat scroll 0 0;
     list-style: none;
     padding: 0;
     position: absolute;
@@ -494,7 +494,7 @@ header {
 }
 
 .header-main {
-    background-color: #c69a39;
+    background-color: rgb(50, 155, 139);
     float: left;
     width: 100%
 }
@@ -2266,7 +2266,7 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #825f00
+    background: rgb(50, 155, 139)
 }
 
 ::-webkit-scrollbar-thumb:hover {
