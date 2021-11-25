@@ -817,3 +817,33 @@
     text-transform: capitalize;
     font-weight: 700
 }
+
+.button-add-cart {
+    border-radius:4px; 
+    width: 49%; 
+    height:50px;
+    background-color: var(--primary-color);
+    float: left;
+    text-align: center;
+    align-items: center;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.button-buy {
+    border-radius:4px; 
+    width: 49%; 
+    height:50px;
+    background: linear-gradient(to bottom, #fa9d4d 0%,#f87f41 100%);
+    float: right;
+    text-align: center;
+    align-items: center;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.button-add-cart .image {
+    width: 18px; 
+    height: 18px
+}
+
