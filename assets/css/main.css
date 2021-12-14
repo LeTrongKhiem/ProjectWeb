@@ -490,7 +490,6 @@
     margin-bottom: 4px;
     transform: scale(0.9);
     transform-origin: left;
-    background-image: url(/assets/img/logo3.png);
     background-position: center;
     
 }
@@ -808,7 +807,6 @@
 }
 
 .container-filter__list {
-    /* position: absolute; */
     top: 100%;
     right: 0;
     left: 0;
