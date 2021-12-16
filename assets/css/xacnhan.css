@@ -1,0 +1,35 @@
+element.style {
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.v2-login-area {
+    clear: both;
+    color: #3E3E3E;
+}body {
+     font-size: 14px;
+     font-family: Arial;
+     width: 100%;
+     overflow-x: hidden;
+ }
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #825f00;
+}
+::-webkit-scrollbar-track {
+    background: #fff;
+}
