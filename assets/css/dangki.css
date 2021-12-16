@@ -6,7 +6,7 @@
 }
 .verification-code .v2-verification-code .v2-title p {
      font-weight: 400;
-     font-size: 20px;
+     font-size: 35px;
      line-height: 23px;
      display: flex;
      align-items: center;
@@ -32,6 +32,7 @@
     margin: 0 20px 0 10px;
     display: flex;
     align-items: center;
+    font-size: 150%;
 }
 .verification-code .v2-verification-code form .v2-group-info .form-group input {
     width: 100%;
@@ -53,6 +54,7 @@
  }
 .verification-code .v2-verification-code form .v2-group-info .form-group .birth-day .title {
     width: 25%;
+    font-size: 150%;
 }
 .verification-code .v2-verification-code form .v2-group-info .form-group .select select {
     width: 100px;
@@ -62,14 +64,14 @@
     box-sizing: border-box;
     border-radius: 0;
     margin: 0;
-    -webkit-appearance: none;
+
     -moz-appearance: none;
     -ms-appearance: none;
     border-right: 1px solid #3e3e3e;
 }
 
 .verification-code .v2-verification-code form .v2-group-info .form-group .select::after {
-    content: '\25BC';
+
     position: absolute;
     top: 10px;
     right: 10px;
@@ -95,4 +97,10 @@
     color: #fff;
     border: none;
     cursor: pointer;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 150%;
+    line-height: 1.15;
+    margin: 0;
 }
