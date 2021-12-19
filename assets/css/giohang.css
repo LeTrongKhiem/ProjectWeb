@@ -1,5 +1,5 @@
 body {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .container {
@@ -16,4 +16,15 @@ body {
 
 .btn {
     font-size: 1.2rem;
+}
+.f-12 {
+    font-size: 1.25rem;
+}
+
+
+.checkout{
+    margin-left: 100px;
+}
+.contact-1{
+    margin: 0 !important;
 }

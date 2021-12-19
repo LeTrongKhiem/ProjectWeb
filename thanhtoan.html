@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giỏ hàng</title>
+    <title>Thanh toán</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="icon" href="./assets/img/logo3.png">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./admin/assets/mdb5-advanced-standard/css/mdb.min.css">
+    <link rel="stylesheet" href="./admin/assets/MDB5-STANDARD-UI-KIT-Pro-Advanced-3.9.0/css/mdb.min.css">
     <link rel="stylesheet" href="./assets/css/giohang.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/mobile.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
-    <script src="./admin/assets/mdb5-advanced-standard/js/mdb.min.js"></script>
-</head>
 
+    <script src="./assets/MDB5-STANDARD-UI-KIT-Pro-Advanced-3.9.0/js/mdb.min.js"></script>
+</head>
 <body>
     <div class="header">
         <div class="header-nav">
@@ -54,7 +53,7 @@
                         <div class="header-nav__item">
                             <ul class="header-nav__logs-list">
                                 <li class="header-nav__log-item">
-                                    <a href="#" class="header-nav__log-link">Tra cứu bảo hành</a>
+                                    <a href="./trangbaohanh.html" class="header-nav__log-link">Tra cứu bảo hành</a>
                                 </li>
                                 <li class="header-nav__log-item">
                                     <a href="#" class="header-nav__log-link">Đăng nhập</a>
@@ -961,7 +960,8 @@
 
                     <!-- Mobile search input -->
                     <div class="header-mobile-search-box__wrap">
-                        <input type="text" placeholder="Nhập tên sản phẩm..." class="header-mobile-search-box__input">
+                        <input type="text" placeholder="Nhập tên sản phẩm..."
+                            class="header-mobile-search-box__input">
                         <button class="header-mobile-search-box__btn">
                             <i class="header-mobile-search-box__icon fas fa-search"></i>
                         </button>
@@ -976,8 +976,7 @@
         <nav class="header-mobile-nav">
             <div class="header-mobile-nav__heading">
                 <a href="#" class="header-mobile-nav__heading-link">
-                    <div class="header-mobile-nav__logo">
-                        TG Mobile</div>
+                    <div class="header-mobile-nav__logo"></div>
                 </a>
                 <i class="header-mobile-nav__close fas fa-times"></i>
             </div>
@@ -1270,290 +1269,166 @@
   <!--Main layout-->
   <main class="mb-6">
     <div class="container">
-      <!-- Section: Cart -->
+      <!-- Section: Checkout form -->
       <section class="">
         <div class="row gx-lg-5">
           <div class="col-lg-8 mb-4 mb-md-0">
-            <!-- Section: Product list -->
-            <section class="mb-5">
-              <!-- Single item -->
-              <div class="row border-bottom mb-4">
-                <div class="col-md-2 mb-4 mb-md-0">
-                  <div
-                       class="
-                              bg-image
-                              ripple
-                              rounded-5
-                              mb-4
-                              overflow-hidden
-                              d-block
-                              "
-                       data-ripple-color="light"
-                       >
-                    <img
-                         src="https://cdn.mobilecity.vn/mobilecity-vn/images/2021/07/w300/iphone-xs-max-den.jpg"
-                         class="w-100"
-                         alt=""
+            <!-- Section: Biling details -->
+            <section class="">
+              <form>
+                <h5 class="mb-4">Shipping address</h5>
+  
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row mb-4">
+                  <div class="col">
+                    <div class="form-outline">
+                      <input
+                             type="text"
+                             id="form6Example1"
+                             class="form-control"
+                             />
+                      <label class="form-label" for="form6Example1"
+                             >First name</label
+                        >
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-outline">
+                      <input
+                             type="text"
+                             id="form6Example2"
+                             class="form-control"
+                             />
+                      <label class="form-label" for="form6Example2"
+                             >Last name</label
+                        >
+                    </div>
+                  </div>
+                </div>
+  
+                <!-- Text input -->
+                <div class="form-outline mb-4">
+                  <input
+                         type="text"
+                         id="form6Example3"
+                         class="form-control"
                          />
-                    <a href="#!">
-                      <div class="hover-overlay">
-                        <div
-                             class="mask"
-                             style="background-color: hsla(0, 0%, 98.4%, 0.2)"
-                             ></div>
-                      </div>
-                    </a>
-                  </div>
+                  <label class="form-label" for="form6Example3"
+                         >Company name</label
+                    >
                 </div>
   
-                <div class="col-md-8 mb-4 mb-md-0">
-                  <p class="fw-bold">Iphone XSMax</p>
-                  <p class="mb-1">
-                    <span class="text-muted me-2">Dung lượng:</span><span>64Gb</span>
-                  </p>
-                  <p>
-                    <span class="text-muted me-2">Màu:</span
-                      ><span>Đen</span>
-                  </p>
-  
-                  <p class="mb-4">
-                    <a href="" class="text-muted pe-3 border-end"
-                       ><small
-                               ><i class="fas fa-trash me-2"></i>Xóa</small
-                      ></a
-                      >
-                    <a href="" class="text-muted ps-3"
-                       ><small
-                               ><i class="fas fa-heart me-2"></i>Thêm vào mục yêu thích</small
-                      ></a
-                      >
-                  </p>
-                </div>
-  
-                <div class="col-md-2 mb-4 mb-md-0">
-                  <div class="form-outline mb-4">
-                    
-                    <label class="form-label" for="typeNumber">Số Lượng</label>
-                    <input
-                           type="number"
-                           id="typeNumber"
-                           class="form-control f-12"
-                           value="1"
-                           min="1"
-                           />
-                    
-                  </div>
-  
-                  <h5 class="mb-2">
-                    <s class="text-muted me-2 small align-middle">15.000.000</s
-                      ><span class="align-middle">13.700.000</span>
-                  </h5>
-                  <p class="text-danger"><small>You save 15%</small></p>
-                </div>
-              </div>
-              <!-- Single item -->
-  
-              <!-- Single item -->
-              <div class="row border-bottom mb-4">
-                <div class="col-md-2 mb-4 mb-md-0">
-                  <div
-                       class="
-                              bg-image
-                              ripple
-                              rounded-5
-                              mb-4
-                              overflow-hidden
-                              d-block
-                              "
-                       data-ripple-color="light"
-                       >
-                    <img
-                         src="https://cdn.mobilecity.vn/mobilecity-vn/images/2021/02/w150/asus-rog-phone-5-render-1-1200x675-800-resize.jpg"
-                         class="w-100"
-                         alt=""
+                <!-- Text input -->
+                <div class="form-outline mb-4">
+                  <input
+                         type="text"
+                         id="form6Example4"
+                         class="form-control"
                          />
-                    <a href="#!">
-                      <div class="hover-overlay">
-                        <div
-                             class="mask"
-                             style="background-color: hsla(0, 0%, 98.4%, 0.2)"
-                             ></div>
-                      </div>
-                    </a>
-                  </div>
+                  <label class="form-label" for="form6Example4"
+                         >Address</label
+                    >
                 </div>
   
-                <div class="col-md-8 mb-4 mb-md-0">
-                  <p class="fw-bold">Asus ROG Phone 5 (Snap888)</p>
-                  <p class="mb-1">
-                    <span class="text-muted me-2">Dung lượng:</span><span>128Gb</span>
-                  </p>
-                  <p>
-                    <span class="text-muted me-2">Màu:</span
-                      ><span>Đen</span>
-                  </p>
-  
-                  <p class="mb-4">
-                    <a href="" class="text-muted pe-3 border-end"
-                       ><small
-                               ><i class="fas fa-trash me-2"></i>Xóa</small
-                      ></a
-                      >
-                    <a href="" class="text-muted ps-3"
-                       ><small
-                               ><i class="fas fa-heart me-2"></i>Thêm vào mục yêu thích</small
-                      ></a
-                      >
-                  </p>
-                </div>
-  
-                <div class="col-md-2 mb-4 mb-md-0">
-                  <div class="form-outline mb-4">
-                    <label class="form-label" for="typeNumber"
-                    >Số lượng</label
-               >
-                    <input
-                           type="number"
-                           id="typeNumber"
-                           class="form-control f-12"
-                           value="1"
-                           min="1"
-                           />
-                    
-                  </div>
-  
-                  <h5 class="mb-2">
-                    <s class="text-muted me-2 small align-middle">14.650.000</s
-                      ><span class="align-middle">12.000.000</span>
-                  </h5>
-                  <p class="text-danger"><small>You save 15%</small></p>
-                </div>
-              </div>
-              <!-- Single item -->
-  
-              <!-- Single item -->
-              <div class="row border-bottom mb-4">
-                <div class="col-md-2 mb-4 mb-md-0">
-                  <div
-                       class="
-                              bg-image
-                              ripple
-                              rounded-5
-                              mb-4
-                              overflow-hidden
-                              d-block
-                              "
-                       data-ripple-color="light"
-                       >
-                    <img
-                         src="https://cdn.mobilecity.vn/mobilecity-vn/images/2021/02/w150/vivo-iqoo-7-white.jpg"
-                         class="w-100"
-                         alt=""
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input
+                         type="email"
+                         id="form6Example5"
+                         class="form-control"
                          />
-                    <a href="#!">
-                      <div class="hover-overlay">
-                        <div
-                             class="mask"
-                             style="background-color: hsla(0, 0%, 98.4%, 0.2)"
-                             ></div>
-                      </div>
-                    </a>
-                  </div>
+                  <label class="form-label" for="form6Example5"
+                         >Email</label
+                    >
                 </div>
   
-                <div class="col-md-8 mb-4 mb-md-0">
-                  <p class="fw-bold">Vivo iQOO 7 (Snap 888)</p>
-                  <p class="mb-1">
-                    <span class="text-muted me-2">Dung lượng:</span><span>64Gb</span>
-                  </p>
-                  <p>
-                    <span class="text-muted me-2">Màu:</span
-                      ><span>Trắng</span>
-                  </p>
-  
-                  <p class="mb-4">
-                    <a href="" class="text-muted pe-3 border-end"
-                       ><small
-                               ><i class="fas fa-trash me-2"></i>Xóa</small
-                      ></a
-                      >
-                    <a href="" class="text-muted ps-3"
-                       ><small
-                               ><i class="fas fa-heart me-2"></i>Thêm vào mục yêu thích</small
-                      ></a
-                      >
-                  </p>
+                <!-- Number input -->
+                <div class="form-outline mb-4">
+                  <input
+                         type="number"
+                         id="form6Example6"
+                         class="form-control"
+                         />
+                  <label class="form-label" for="form6Example6"
+                         >Phone</label
+                    >
                 </div>
   
-                <div class="col-md-2 mb-4 mb-md-0">
-                  <div class="form-outline mb-4">
-                    <label class="form-label" for="typeNumber"
-                    >Số lượng</label
-               >
-                    <input
-                           type="number"
-                           id="typeNumber"
-                           class="form-control f-12"
-                           value="1"
-                           min="1"
-                           />
-                    
-                  </div>
-  
-                  <h5 class="mb-2">
-                    <s class="text-muted me-2 small align-middle">12.450.000</s
-                      ><span class="align-middle">12.000.000</span>
-                  </h5>
-                  <p class="text-danger mb-4"><small>You save 15%</small></p>
+                <!-- Message input -->
+                <div class="form-outline mb-5">
+                  <textarea
+                            class="form-control"
+                            id="form6Example7"
+                            rows="4"
+                            ></textarea>
+                  <label class="form-label" for="form6Example7"
+                         >Additional information</label
+                    >
                 </div>
-              </div>
-              <!-- Single item -->
+  
+                <h5 class="mb-4">Billing address</h5>
+  
+                <!-- Checkbox -->
+                <div class="form-check mb-2">
+                  <input
+                         class="form-check-input me-2"
+                         type="checkbox"
+                         value=""
+                         id="form6Example8"
+                         checked
+                         />
+                  <label class="form-check-label" for="form6Example8">
+                    Same as shipping address
+                  </label>
+                </div>
+              </form>
             </section>
-            <!-- Section: Product list -->
-  
-            <!-- Section: Details -->
+            <!-- Section: Biling details -->
           </div>
   
-          <div class="col-lg-3 mb-4 mb-md-0 checkout">
+          <div class="col-lg-4 mb-4 mb-md-0">
             <!-- Section: Summary -->
             <section class="shadow-4 p-4 rounded-5 mb-4">
-              <h5 class="mb-5">Tiến hành thanh toán</h5>
+              <h5 class="mb-5">The total amount of</h5>
   
               <div class="d-flex justify-content-between mb-3">
-                <span>Giá tạm thời </span>
+                <span>Temporary amount </span>
                 <span>$53,98</span>
               </div>
               <div class="d-flex justify-content-between">
-                <span>Giao hàng </span>
-                <span>Giao hàng tận nơi</span>
+                <span>Shipping </span>
+                <span>Gratis</span>
               </div>
               <hr class="my-4" />
               <div class="d-flex justify-content-between fw-bold mb-5">
-                <span>Tổng tiền </span>
+                <span>The total amount of (including VAT) </span>
                 <span>$53,98</span>
               </div>
-              <a href="./thanhtoan.html"><button type="button" class="btn btn-primary btn-rounded w-100 f-16">
-                Tiến hành thanh toán
-              </button></a>
-              
+  
+              <button
+                      type="button"
+                      class="btn btn-primary btn-rounded w-100"
+                      >
+                Proceed to shipping
+              </button>
             </section>
             <!-- Section: Summary -->
   
             <!-- Section: Summary -->
             <section class="shadow-4 p-4 rounded-5">
-              <h5 class="mb-4">Mã giảm giá</h5>
+              <h5 class="mb-4">Apply promo code</h5>
   
               <div class="d-flex align-items-center">
                 <input
                        type="text"
                        class="form-control rounded me-1"
-                       placeholder="Nhập mã"
+                       placeholder="Promo code"
                        />
                 <button
                         type="button"
                         class="btn btn-link btn-rounded overflow-visible"
                         >
-                  Xác nhận
+                  Apply
                 </button>
               </div>
             </section>
@@ -1561,241 +1436,239 @@
           </div>
         </div>
       </section>
-      <!-- Section: Cart -->
+      <!-- Section: Checkout form -->
     </div>
   </main>
   <!--Main layout-->
-
-  <div class="footer">
-    <div class="grid wide">
-        <div class="row ">
-            <!-- Footer Areas -->
-            <div class="col l-3 l-4-m m-5 c-10 l-o-0 l-o-0-m c-o-1 m-o-1  contact-1">
-                <div class="footer__heading">
-                    <i class="footer__heading-icon fas fa-map-marker-alt"></i>
-                    Hệ thống cửa hàng
-                </div>
-                <ul class="footer-areas">
-                    <li class="footer-area__item">
-                        <h3 class="footer-area__heading">Hồ Chí Minh</h3>
-                        <ul class="footer-places">
-                            <li class="footer-place__item">
-                                <div class="footer-place__item-location">
-                                    Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
-                                    <a href="#"
-                                        class="footer-place__item-link footer-place__item-link--highlight">| Xem
-                                        bản đồ</a>
-                                </div>
-                                <div class="footer-place__item-contact">
-                                    Điện thoại:
-                                    <a href="#" class="footer-place__item-link">037.225.3243</a>
-                                    -
-                                    <a href="#" class="footer-place__item-link">097.123.9797</a>
-                                </div>
-                            </li>
-                            <li class="footer-place__item">
-                                <div class="footer-place__item-location">
-                                    Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
-                                    <a href="#"
-                                        class="footer-place__item-link footer-place__item-link--highlight">| Xem
-                                        bản đồ</a>
-                                </div>
-                                <div class="footer-place__item-contact">
-                                    Điện thoại:
-                                    <a href="#" class="footer-place__item-link">037.225.3243</a>
-                                    -
-                                    <a href="#" class="footer-place__item-link">097.123.9797</a>
-                                </div>
-                            </li>
-                            <li class="footer-place__item">
-                                <div class="footer-place__item-location">
-                                    Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
-                                    <a href="#"
-                                        class="footer-place__item-link footer-place__item-link--highlight">| Xem
-                                        bản đồ</a>
-                                </div>
-                                <div class="footer-place__item-contact">
-                                    Điện thoại:
-                                    <a href="#" class="footer-place__item-link">037.225.3243</a>
-                                    -
-                                    <a href="#" class="footer-place__item-link">097.123.9797</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="footer-area__item">
-                        <h3 class="footer-area__heading">Hà Nội</h3>
-                        <ul class="footer-places">
-                            <li class="footer-place__item">
-                                <div class="footer-place__item-location">
-                                    Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
-                                    <a href="#"
-                                        class="footer-place__item-link footer-place__item-link--highlight">| Xem
-                                        bản đồ</a>
-                                </div>
-                                <div class="footer-place__item-contact">
-                                    Điện thoại:
-                                    <a href="#" class="footer-place__item-link">037.225.3243</a>
-                                    -
-                                    <a href="#" class="footer-place__item-link">097.123.9797</a>
-                                </div>
-                            </li>
-                            <li class="footer-place__item">
-                                <div class="footer-place__item-location">
-                                    Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
-                                    <a href="#"
-                                        class="footer-place__item-link footer-place__item-link--highlight">| Xem
-                                        bản đồ</a>
-                                </div>
-                                <div class="footer-place__item-contact">
-                                    Điện thoại:
-                                    <a href="#" class="footer-place__item-link">037.225.3243</a>
-                                    -
-                                    <a href="#" class="footer-place__item-link">097.123.9797</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="footer-area__item">
-                        <h3 class="footer-area__heading">Đà Nẵng</h3>
-                        <ul class="footer-places">
-                            <li class="footer-place__item">
-                                <div class="footer-place__item-location">
-                                    Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
-                                    <a href="#"
-                                        class="footer-place__item-link footer-place__item-link--highlight">| Xem
-                                        bản đồ</a>
-                                </div>
-                                <div class="footer-place__item-contact">
-                                    Điện thoại:
-                                    <a href="#" class="footer-place__item-link">037.225.3243</a>
-                                    -
-                                    <a href="#" class="footer-place__item-link">097.123.9797</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Footer Policy -->
-            <div class="col l-3 l-4-m m-5 c-10 l-o-0 l-o-0-m c-o-1 m-o-1 contact-1">
-                <div class="footer__heading">
-                    <i class="footer__heading-icon far fa-question-circle"></i>
-                    Quy định - chính sách
-                </div>
-
-                <ul class="footer-policy__list">
-                    <li class="footer-policy__item">
-                        <a href="#" class="footer-policy__link">Chính sách bảo hành</a>
-                    </li>
-                    <li class="footer-policy__item">
-                        <a href="#" class="footer-policy__link">Chính sách vận chuyển</a>
-                    </li>
-                    <li class="footer-policy__item">
-                        <a href="#" class="footer-policy__link">Chính sách đổi trả hàng</a>
-                    </li>
-                    <li class="footer-policy__item">
-                        <a href="#" class="footer-policy__link">Chính sách bảo mật thông tin</a>
-                    </li>
-                    <li class="footer-policy__item">
-                        <a href="#" class="footer-policy__link">Hướng dẫn thanh toán</a>
-                    </li>
-                    <li class="footer-policy__item">
-                        <a href="#" class="footer-policy__link">Hướng dẫn mua hàng Online</a>
-                    </li>
-                    <li class="footer-policy__item">
-                        <a href="#" class="footer-policy__link">Dịch vụ Ship COD Toàn quốc</a>
-                    </li>
-                    <li class="footer-policy__item">
-                        <a href="#" class="footer-policy__link">Chính sách đại lý linh, phụ kiện</a>
-                    </li>
-                    <li class="footer-policy__item">
-                        <a href="#" class="footer-policy__link">Sitemap</a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Footer Subscribe -->
-            <div class="col l-3 l-4-m m-5 c-10 l-o-0 l-o-0-m c-o-1 m-o-1 contact-1">
-                <div class="footer__heading">
-                    <i class="footer__heading-icon far fa-envelope"></i>
-                    Đăng ký nhận bảng tin
-                </div>
-
-                <div class="footer-mail">
-                    <form action="">
-                        <input type="text" required placeholder="Nhập email của bạn..." name="" id=""
-                            class="footer-mail__input">
-                        <button class="footer-mail__btn">Gửi</button>
-                    </form>
-                </div>
-
-                <div class="footer-linked">
-                    <h3 class="footer-linked__heading">
-                        <i class="footer-linked__icon fas fa-link"></i>
-                        Liên kết
-                    </h3>
-
-                    <ul class="footer-associates">
-                        <li class="footer-associate__item">
-                            <i
-                                class="footer-associate__icon footer-associate__icon--facebook fab fa-facebook"></i>
-                            <a href="https://www.facebook.com/khiem.1604/" target="_blank"
-                                class="footer-associate__link">
-                                Facebook
-                            </a>
+    <div class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <!-- Footer Areas -->
+                <div class="col l-3 l-4-m m-5 c-10 l-o-0 l-o-0-m c-o-1 m-o-1">
+                    <div class="footer__heading">
+                        <i class="footer__heading-icon fas fa-map-marker-alt"></i>
+                        Hệ thống cửa hàng
+                    </div>
+                    <ul class="footer-areas">
+                        <li class="footer-area__item">
+                            <h3 class="footer-area__heading">Hồ Chí Minh</h3>
+                            <ul class="footer-places">
+                                <li class="footer-place__item">
+                                    <div class="footer-place__item-location">
+                                        Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
+                                        <a href="#"
+                                            class="footer-place__item-link footer-place__item-link--highlight">| Xem
+                                            bản đồ</a>
+                                    </div>
+                                    <div class="footer-place__item-contact">
+                                        Điện thoại:
+                                        <a href="#" class="footer-place__item-link">037.225.3243</a>
+                                        -
+                                        <a href="#" class="footer-place__item-link">097.123.9797</a>
+                                    </div>
+                                </li>
+                                <li class="footer-place__item">
+                                    <div class="footer-place__item-location">
+                                        Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
+                                        <a href="#"
+                                            class="footer-place__item-link footer-place__item-link--highlight">| Xem
+                                            bản đồ</a>
+                                    </div>
+                                    <div class="footer-place__item-contact">
+                                        Điện thoại:
+                                        <a href="#" class="footer-place__item-link">037.225.3243</a>
+                                        -
+                                        <a href="#" class="footer-place__item-link">097.123.9797</a>
+                                    </div>
+                                </li>
+                                <li class="footer-place__item">
+                                    <div class="footer-place__item-location">
+                                        Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
+                                        <a href="#"
+                                            class="footer-place__item-link footer-place__item-link--highlight">| Xem
+                                            bản đồ</a>
+                                    </div>
+                                    <div class="footer-place__item-contact">
+                                        Điện thoại:
+                                        <a href="#" class="footer-place__item-link">037.225.3243</a>
+                                        -
+                                        <a href="#" class="footer-place__item-link">097.123.9797</a>
+                                    </div>
+                                </li>
+                            </ul>
                         </li>
-                        <li class="footer-associate__item">
-                            <i
-                                class="footer-associate__icon footer-associate__icon--youtube fab fa-youtube"></i>
-                            <a href="" target="_blank" class="footer-associate__link">
-                                Youtube
-                            </a>
+                        <li class="footer-area__item">
+                            <h3 class="footer-area__heading">Hà Nội</h3>
+                            <ul class="footer-places">
+                                <li class="footer-place__item">
+                                    <div class="footer-place__item-location">
+                                        Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
+                                        <a href="#"
+                                            class="footer-place__item-link footer-place__item-link--highlight">| Xem
+                                            bản đồ</a>
+                                    </div>
+                                    <div class="footer-place__item-contact">
+                                        Điện thoại:
+                                        <a href="#" class="footer-place__item-link">037.225.3243</a>
+                                        -
+                                        <a href="#" class="footer-place__item-link">097.123.9797</a>
+                                    </div>
+                                </li>
+                                <li class="footer-place__item">
+                                    <div class="footer-place__item-location">
+                                        Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
+                                        <a href="#"
+                                            class="footer-place__item-link footer-place__item-link--highlight">| Xem
+                                            bản đồ</a>
+                                    </div>
+                                    <div class="footer-place__item-contact">
+                                        Điện thoại:
+                                        <a href="#" class="footer-place__item-link">037.225.3243</a>
+                                        -
+                                        <a href="#" class="footer-place__item-link">097.123.9797</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer-area__item">
+                            <h3 class="footer-area__heading">Đà Nẵng</h3>
+                            <ul class="footer-places">
+                                <li class="footer-place__item">
+                                    <div class="footer-place__item-location">
+                                        Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
+                                        <a href="#"
+                                            class="footer-place__item-link footer-place__item-link--highlight">| Xem
+                                            bản đồ</a>
+                                    </div>
+                                    <div class="footer-place__item-contact">
+                                        Điện thoại:
+                                        <a href="#" class="footer-place__item-link">037.225.3243</a>
+                                        -
+                                        <a href="#" class="footer-place__item-link">097.123.9797</a>
+                                    </div>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
 
+                <!-- Footer Policy -->
+                <div class="col l-3 l-4-m m-5 c-10 l-o-0 l-o-0-m c-o-1 m-o-1">
+                    <div class="footer__heading">
+                        <i class="footer__heading-icon far fa-question-circle"></i>
+                        Quy định - chính sách
+                    </div>
 
-            </div>
-            <div class="col l-3 l-4-m m-5 c-10 l-o-0 l-o-0-m c-o-1 m-o-1 contact-1" style="padding: 65px 45px;">
-                <div class="footer-certification"></div>
-                <div class="footer-power"></div>
+                    <ul class="footer-policy__list">
+                        <li class="footer-policy__item">
+                            <a href="#" class="footer-policy__link">Chính sách bảo hành</a>
+                        </li>
+                        <li class="footer-policy__item">
+                            <a href="#" class="footer-policy__link">Chính sách vận chuyển</a>
+                        </li>
+                        <li class="footer-policy__item">
+                            <a href="#" class="footer-policy__link">Chính sách đổi trả hàng</a>
+                        </li>
+                        <li class="footer-policy__item">
+                            <a href="#" class="footer-policy__link">Chính sách bảo mật thông tin</a>
+                        </li>
+                        <li class="footer-policy__item">
+                            <a href="#" class="footer-policy__link">Hướng dẫn thanh toán</a>
+                        </li>
+                        <li class="footer-policy__item">
+                            <a href="#" class="footer-policy__link">Hướng dẫn mua hàng Online</a>
+                        </li>
+                        <li class="footer-policy__item">
+                            <a href="#" class="footer-policy__link">Dịch vụ Ship COD Toàn quốc</a>
+                        </li>
+                        <li class="footer-policy__item">
+                            <a href="#" class="footer-policy__link">Chính sách đại lý linh, phụ kiện</a>
+                        </li>
+                        <li class="footer-policy__item">
+                            <a href="#" class="footer-policy__link">Sitemap</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Footer Subscribe -->
+                <div class="col l-3 l-4-m m-5 c-10 l-o-0 l-o-0-m c-o-1 m-o-1">
+                    <div class="footer__heading">
+                        <i class="footer__heading-icon far fa-envelope"></i>
+                        Đăng ký nhận bảng tin
+                    </div>
+
+                    <div class="footer-mail">
+                        <form action="">
+                            <input type="text" required placeholder="Nhập email của bạn..." name="" id=""
+                                class="footer-mail__input">
+                            <button class="footer-mail__btn">Gửi</button>
+                        </form>
+                    </div>
+
+                    <div class="footer-linked">
+                        <h3 class="footer-linked__heading">
+                            <i class="footer-linked__icon fas fa-link"></i>
+                            Liên kết
+                        </h3>
+
+                        <ul class="footer-associates">
+                            <li class="footer-associate__item">
+                                <i
+                                    class="footer-associate__icon footer-associate__icon--facebook fab fa-facebook"></i>
+                                <a href="https://www.facebook.com/khiem.1604/" target="_blank"
+                                    class="footer-associate__link">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-associate__item">
+                                <i
+                                    class="footer-associate__icon footer-associate__icon--youtube fab fa-youtube"></i>
+                                <a href="" target="_blank" class="footer-associate__link">
+                                    Youtube
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="col l-3 l-4-m m-5 c-10 l-o-0 l-o-0-m c-o-1 m-o-1" style="padding: 65px 45px;">
+                    <div class="footer-certification"></div>
+                    <div class="footer-power"></div>
+                </div>
             </div>
         </div>
+
+        <div class="footer-text">Lê Trọng Khiêm - Lê Hoàng Ân - Tằng Minh Thuận</div>
+
+        <ul class="footer-nav-mobile__list">
+            <li class="footer-nav-mobile__item">
+                <a href="#" class="footer-nav-mobile__link">
+                    <i class="footer-nav-mobile__icon fas fa-home"></i>
+                    <span class="footer-nav-mobile__title">Trang chủ</span>
+                </a>
+            </li>
+            <li class="footer-nav-mobile__item">
+                <a href="#" class="footer-nav-mobile__link">
+                    <i class="footer-nav-mobile__icon fas fa-shopping-cart"></i>
+                    <span class="footer-nav-mobile__title">Giỏ hàng</span>
+                    <span class="footer-nav-mobile__number">0</span>
+                </a>
+            </li>
+            <li class="footer-nav-mobile__item">
+                <a href="#" class="footer-nav-mobile__link">
+                    <i class="footer-nav-mobile__icon fas fa-bell"></i>
+                    <span class="footer-nav-mobile__title">Thông báo</span>
+                    <span class="footer-nav-mobile__number">0</span>
+                </a>
+            </li>
+            <li class="footer-nav-mobile__item">
+                <a href="#" class="footer-nav-mobile__link">
+                    <i class="footer-nav-mobile__icon fas fa-user"></i>
+                    <span class="footer-nav-mobile__title">Tài khoản</span>
+                </a>
+            </li>
+        </ul>
     </div>
-
-    <div class="footer-text">Lê Trọng Khiêm - Lê Hoàng Ân - Tằng Minh Thuận</div>
-
-    <ul class="footer-nav-mobile__list">
-        <li class="footer-nav-mobile__item">
-            <a href="#" class="footer-nav-mobile__link">
-                <i class="footer-nav-mobile__icon fas fa-home"></i>
-                <span class="footer-nav-mobile__title">Trang chủ</span>
-            </a>
-        </li>
-        <li class="footer-nav-mobile__item">
-            <a href="#" class="footer-nav-mobile__link">
-                <i class="footer-nav-mobile__icon fas fa-shopping-cart"></i>
-                <span class="footer-nav-mobile__title">Giỏ hàng</span>
-                <span class="footer-nav-mobile__number">0</span>
-            </a>
-        </li>
-        <li class="footer-nav-mobile__item">
-            <a href="#" class="footer-nav-mobile__link">
-                <i class="footer-nav-mobile__icon fas fa-bell"></i>
-                <span class="footer-nav-mobile__title">Thông báo</span>
-                <span class="footer-nav-mobile__number">0</span>
-            </a>
-        </li>
-        <li class="footer-nav-mobile__item">
-            <a href="#" class="footer-nav-mobile__link">
-                <i class="footer-nav-mobile__icon fas fa-user"></i>
-                <span class="footer-nav-mobile__title">Tài khoản</span>
-            </a>
-        </li>
-    </ul>
-</div>
 </body>
-
 </html>
