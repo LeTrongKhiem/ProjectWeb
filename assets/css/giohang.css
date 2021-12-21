@@ -1,5 +1,6 @@
 body {
     font-size: 1.6rem;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -18,7 +19,7 @@ body {
     font-size: 1.2rem;
 }
 .f-12 {
-    font-size: 1.25rem;
+    font-size: 1.65rem;
 }
 
 
@@ -27,4 +28,8 @@ body {
 }
 .contact-1{
     margin: 0 !important;
+}
+
+.mgl-c {
+    font-size: 1.8rem;
 }
