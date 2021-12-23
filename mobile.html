@@ -14,6 +14,7 @@
     <link rel="icon" href="./assets/img/logo.jpg">
 
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css"> 
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/mobile.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
@@ -77,8 +78,8 @@
                         </div>
 
                         <a href="#" class="header-logo__link">
-
-                            <div class="header-logo__img">TG Mobile</div>
+                            <div class="header-mobile-nav__logo1" style="background-image: url('./assets/img/logo3.png');">
+                            </div>
                         </a>
 
                         <div class="header-search hide-on-mobile-and-tablet">
@@ -974,9 +975,9 @@
 
             <nav class="header-mobile-nav">
                 <div class="header-mobile-nav__heading">
-                    <a href="#" class="header-mobile-nav__heading-link">
-                        <div class="header-mobile-nav__logo">
-                            TG Mobile</div>
+                    <a href="#" class="header-logo__link">
+                        <div class="header-mobile-nav__logo1" style="background-image: url('./assets/img/logo3.png');">
+                        </div>
                     </a>
                     <i class="header-mobile-nav__close fas fa-times"></i>
                 </div>
@@ -985,13 +986,15 @@
                     <!-- Mobile -->
                     <li class="header-mobile-nav__item">
                         <label class="header-mobile-nav__item-select">
-                            <i class="header-mobile-nav__icon-open fas fa-chevron-right"></i>
-                            Điện thoại
+                            <a href="mobile.html">
+                                <i class="header-mobile-nav__icon-open fas fa-chevron-right"></i>
+                                Điện thoại
+                            </a>
                         </label>
 
                         <ul class="header-mobile-sub-nav__list" style="--num-row: 8;">
                             <li class="header-mobile-sub-nav__item">
-                                <a href="#" class="header-mobile-sub-nav__item-link">Apple</a>
+                                <a href="mobile.html" class="header-mobile-sub-nav__item-link">Apple</a>
                             </li>
                             <li class="header-mobile-sub-nav__item">
                                 <a href="#" class="header-mobile-sub-nav__item-link">Samsung</a>

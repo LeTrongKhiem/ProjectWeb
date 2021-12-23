@@ -1,33 +1,63 @@
 const unlock = (() => {
     const products = [
         {
-            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2020/02/w150/unlock-iphone-11.jpg)',
-            name: 'Mở mạng, Unlock iPhone 11 Pro | Max',
-            price: 'Liên hệ',
+            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2016/12/w300/thay-man-hinh-oppo-joy-neo-yoyo-find-find-way-r.jpg)',
+            name: 'Thay màn hình Oppo',
+            price: '150.000₫',
             link: '#',
         },
         {
-            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2020/02/w150/unlock-samsung-galaxy-s10.jpg)',
-            name: 'Mở mạng, Unlock Samsung Galaxy S10e | S10 Plus | Lite',
-            price: 'Liên hệ',
+            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2018/12/w300/ava-thay-mat-kinh-iphone-x.jpg)',
+            name: 'Ép, thay mặt kính, cảm ứng iPhone X | XR | XS | XS Max',
+            price: '500.000₫',
             link: '#',
         },
         {
-            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2020/02/w150/mo-khoa-cloud-iphone-x.jpg)',
-            name: 'Bẻ / Mở khóa iCloud iPhone X, XS, XS Max, Xr',
-            price: '8.000.000đ',
+            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2021/01/w300/iphone-6s.jpg)',
+            name: 'Thay màn hình, mặt kính cảm ứng iPhone 6 | 6S Plus & IP 6S (Tặng dán Cường lực)',
+            price: '200.000₫',
             link: '#',
         },
         {
-            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2020/02/w150/unlock-icloud-ipad-pro.jpg)',
-            name: 'Bẻ / Mở khóa iCloud iPad Pro',
-            price: 'Liên hệ',
+            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2019/07/w300/ava-thay-mat-kinh-iphone-7.jpg)',
+            name: 'Thay mặt kính iPhone 7, 7 Plus (Tặng dán Cường lực)',
+            price: '200.000₫',
             link: '#',
         },
         {
-            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2020/02/w150/unlock-iphone-5.jpg)',
-            name: 'Mở mạng, Unlock Iphone 5,5S,5C',
-            price: 'Liên hệ',
+            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2021/01/w300/iphone-8-1.jpg)',
+            name: 'Thay màn hình iPhone 8 | 8 Plus (Tặng dán Cường lực)',
+            price: '200.000₫',
+            link: '#',
+        },
+        {
+            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2019/03/w300/ava-thay-mat-kinh-truoc-sau-iphone-8.jpg)',
+            name: 'Thay mặt kính (Trước, Lưng Sau) iPhone 8, 8 Plus (Tặng dán Cường lực)',
+            price: '200.000₫',
+            link: '#',
+        },
+        {
+            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2021/01/w300/iphone-x.jpg)',
+            name: 'Thay màn hình iPhone Xs Max, iPhone Xs, iPhone Xr',
+            price: '1.350.000₫',
+            link: '#',
+        },
+        {
+            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2019/03/w300/thay-kinh-lung-sau-iphone-x.jpg)',
+            name: 'Thay mặt kính sau lưng iPhone X | XR | XS Max',
+            price: '300.000₫',
+            link: '#',
+        },
+        {
+            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2017/03/w300/thay-pin-iPhone--7-Plus-thumnail.jpg)',
+            name: 'Thay pin iPhone 7, 7 Plus',
+            price: '200.000₫',
+            link: '#',
+        },
+        {
+            img: 'url(https://cdn.mobilecity.vn/mobilecity-vn/images/2016/11/w300/thay-pin-iphone-6s-plus-1.jpg)',
+            name: 'Thay pin iPhone 6S Plus, iPhone 6S',
+            price: '200.000₫',
             link: '#',
         },
     ];
@@ -74,7 +104,7 @@ const unlock = (() => {
                 `;
             }, '').join('');
 
-            document.querySelector('.unlock-products').innerHTML = htmlUnlock;
+            document.querySelector('.suachua-products').innerHTML = htmlUnlock;
         },
         init() {
             this.render();

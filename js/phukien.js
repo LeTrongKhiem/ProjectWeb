@@ -1,81 +1,81 @@
 const phones = (() => {
     const products = [
         {
-            img: 'url(https://cdn.tgdd.vn/Products/Images/44/253582/apple-macbook-pro-16-m1-max-2021-600x600.jpg)',
-            name: 'MacBook Pro 16 M1 Max 2021/32 core-GPU',
-            price: '90.990.000₫',
+            img: 'url(https://cdn.tgdd.vn/Products/Images/54/236026/tai-nghe-bluetooth-airpods-pro-apple-mwp22-thumb-600x600.jpg)',
+            name: 'Tai nghe Bluetooth AirPods Pro Wireless Charge Apple MWP22',
+            price: '5.490.000₫',
             markerList: ['hot', 'new'],
             linkProduct: '#',
             linkGuarantee: '#',
         },
         {
-            img: 'url(https://cdn.tgdd.vn/Products/Images/44/242201/msi-gf66-11uc-i7-224vn-600x600.jpg)',
-            name: 'MSI Katana Gaming GF66 11UC i7 11800H (224VN)',
-            price: '28.290.000₫',
+            img: 'url(https://cdn.tgdd.vn/Products/Images/54/236016/bluetooth-airpods-2-apple-mv7n2-imei-ava-600x600.jpg)',
+            name: 'Tai nghe Bluetooth AirPods 2 Apple MV7N2',
+            price: '3.590.000₫',
             markerList: [],
             linkProduct: '#',
             linkGuarantee: '#',
         },
         {
-            img: 'url(https://cdn.tgdd.vn/Products/Images/44/251418/asus-rog-zephyrus-gaming-g14-ga401qec-r9-k2064t-17-600x600.jpg)',
-            name: 'Acer Nitro 5 Gaming AN515 57 727J i7 11800H',
-            price: '28.190.000₫',
+            img: 'url(https://cdn.tgdd.vn/Products/Images/54/230363/tai-nghe-bluetooth-true-wireless-mozard-ts13-thumb-600x600.jpg)',
+            name: 'Tai nghe Bluetooth True Wireless Mozard TS13',
+            price: '390.000₫',
             markerList: ['hot', 'new'],
             linkProduct: '#',
             linkGuarantee: '#',
         },
         {
-            img: 'url(https://cdn.tgdd.vn/Products/Images/44/255561/lenovo-yoga-slim-7-14itl05-i5-82a300dpvn-021121-030538-600x600.jpg)',
-            name: 'Lenovo Yoga Slim 7 14ITL05 i5 1135G7 (82A300DPVN)',
-            price: '21.990.000₫',
+            img: 'url(https://cdn.tgdd.vn/Products/Images/54/238028/bluetooth-true-wireless-hydrus-ts12bc-thumb-600x600.jpg)',
+            name: 'Tai nghe Bluetooth True Wireless Hydrus TS12BC',
+            price: '302.000₫',
             markerList: [],
             linkProduct: '#',
             linkGuarantee: '#',
         },
         {
-            img: 'url(https://cdn.tgdd.vn/Products/Images/44/250518/acer-aspire-7-gaming-a715-42g-r6zr-r5-5500u-8gb-600x600.jpg)',
-            name: 'Acer Aspire 7 Gaming A715 42G R6ZR R5 5500U',
-            price: '21.160.000₫',
+            img: 'url(https://cdn.tgdd.vn/Products/Images/54/256512/bluetooth-true-wireless-ava-ds200a-wb-thumb-600x600.png)',
+            name: 'Tai nghe Bluetooth True Wireless AVA+ DS200A-WB',
+            price: '390.000₫',
             markerList: [],
             linkProduct: '#',
             linkGuarantee: '#',
         },
         {
-            img: 'url(https://cdn.tgdd.vn/Products/Images/44/260058/acer-nitro-5-gaming-an515-57-720a-i7-nhqeqsv004-171121-024959-600x600.jpg)',
-            name: 'Acer Nitro 5 Gaming AN515 57 720A i7 11800H',
-            price: '28.660.000₫',
+            img: 'url(https://cdn.tgdd.vn/Products/Images/57/226142/sac-du-phong-polymer-10000mah-qc30-xmobile-p68d-avatar-1-600x600.jpg)',
+            name: 'Xmobile P68D',
+            price: '490.000₫',
             markerList: [],
             linkProduct: '#',
             linkGuarantee: '#',
         },
         {
-            img: 'url(https://cdn.tgdd.vn/Products/Images/44/260156/gigabyte-gaming-g5-i5-10500h-16gb-512gb-6gb-171121-034937-600x600.jpg)',
-            name: 'Gigabyte Gaming G5 i5 10500H (KC-5S11130SB)',
-            price: '26.990.000₫',
+            img: 'url(https://cdn.tgdd.vn/Products/Images/57/229275/sac-du-phong-10000mah-khong-day-xmobile-p106wd-avatar-1-600x600.jpg)',
+            name: 'Xmobile PowerLite P106WD',
+            price: '525.000₫',
             markerList: [],
             linkProduct: '#',
             linkGuarantee: '#',
         },
         {
-            img: 'url(https://cdn.tgdd.vn/Products/Images/44/260054/acer-nitro-5-gaming-an515-57-71vv-i7-nhqensv005-171121-025028-600x600.jpg)',
-            name: 'Acer Nitro 5 Gaming AN515 57 71VV i7 11800H',
-            price: '27.240.000₫',
+            img: 'url(https://cdn.tgdd.vn/Products/Images/2162/236680/bluetooth-mozard-bt100-600x600.jpg)',
+            name: 'Loa Bluetooth Mozard BT100 Mẫu mới',
+            price: '1.432.000₫',
             markerList: [],
             linkProduct: '#',
             linkGuarantee: '#',
         },
         {
-            img: 'url(https://cdn.tgdd.vn/Products/Images/44/255289/msi-katana-gf76-11uc-i7-441vn-600x600.jpg)',
-            name: 'Acer Nitro 5 Gaming AN515 57 71VV i7 11800H',
-            price: '27.240.000₫',
+            img: 'url(https://cdn.tgdd.vn/Products/Images/2162/230265/loa-bluetooth-mozard-e8-600x600.jpg)',
+            name: 'Loa Bluetooth Mozard E8',
+            price: '760.000₫',
             markerList: [],
             linkProduct: '#',
             linkGuarantee: '#',
         },
         {
-            img: 'url(https://cdn.tgdd.vn/Products/Images/44/255289/msi-katana-gf76-11uc-i7-441vn-600x600.jpg)',
-            name: 'MSI Katana GF76 11UC i7 11800H (441VN)',
-            price: '28.290.000₫',
+            img: 'url(https://cdn.tgdd.vn/Products/Images/2162/224541/loa-bluetooth-fenda-w5-plus-600x600.jpg)',
+            name: 'Loa Bluetooth Fenda W5 Plus',
+            price: '360.000₫',
             markerList: [],
             linkProduct: '#',
             linkGuarantee: '#',
@@ -151,7 +151,7 @@ const phones = (() => {
                         <ul class="container-product__item-gifts-list">
                             <li class="container-product__item-gift">
                             <span class="container-product__item-span">KM</span>
-                            Tặng Phiếu mua hàng 1.500.000đ
+                            Tặng Phiếu mua hàng 500.000đ
                             </li>
                            
                         </ul>
@@ -164,7 +164,7 @@ const phones = (() => {
                 `;
             }).join('');
 
-            document.querySelector('.laptop-products').innerHTML = htmlPhone;
+            document.querySelector('.phukien-products').innerHTML = htmlPhone;
 
             const percent = 100 / banners.length;
             const bannerPaginations = [];
