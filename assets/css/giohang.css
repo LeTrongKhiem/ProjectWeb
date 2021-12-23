@@ -1,8 +1,15 @@
+
 body {
     font-size: 1.6rem;
     scroll-behavior: smooth;
 }
+#header .col{
+    margin:0 !important;
 
+}
+#footer .col{
+    margin: 0 !important;
+}
 .container {
     margin-top: 80px;
 }
@@ -25,9 +32,6 @@ body {
 
 .checkout{
     margin-left: 100px;
-}
-.contact-1{
-    margin: 0 !important;
 }
 
 .mgl-c {

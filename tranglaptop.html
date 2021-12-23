@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng nhập</title>
+    <title>Trang chủ</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/tranglaptop.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
-    <link rel="stylesheet" href="./assets/css/dangnhap.css">
 </head>
 
 <body>
@@ -54,13 +54,13 @@
                             <div class="header-nav__item">
                                 <ul class="header-nav__logs-list">
                                     <li class="header-nav__log-item">
-                                        <a href="./trangbaohanh.html" class="header-nav__log-link">Tra cứu bảo hành</a>
+                                        <a href="#" class="header-nav__log-link">Tra cứu bảo hành</a>
                                     </li>
                                     <li class="header-nav__log-item">
-                                        <a href="dangnhap.html" class="header-nav__log-link">Đăng nhập</a>
+                                        <a href="#" class="header-nav__log-link">Đăng nhập</a>
                                     </li>
                                     <li class="header-nav__log-item">
-                                        <a href="dangki.html" class="header-nav__log-link">Đăng ký</a>
+                                        <a href="#" class="header-nav__log-link">Đăng ký</a>
                                     </li>
                                 </ul>
                             </div>
@@ -77,10 +77,8 @@
                             <i class="header-mobile-menu__icon fas fa-bars"></i>
                         </div>
 
-                        <a href="index.html" class="header-logo__link">
-                            <!-- <div class="header-logo__img">TG Mobile</div> -->
-                            <div class="header-mobile-nav__logo1"
-                                style="background-image: url('./assets/img/logo3.png');">
+                        <a href="#" class="header-logo__link">
+                            <div class="header-mobile-nav__logo1" style="background-image: url('./assets/img/logo3.png');">
                             </div>
                         </a>
 
@@ -106,7 +104,7 @@
                                                 <div class="row">
                                                     <div class="col l-4 m-4">
                                                         <div class="header-sub-menu__item">
-                                                            <a href="./mobile.html" class="header-sub-menu__link">
+                                                            <a href="#" class="header-sub-menu__link">
                                                                 <i
                                                                     class="header-sub-menu__icon fas fa-angle-double-right"></i>
                                                                 Apple
@@ -941,7 +939,7 @@
 
                             <!-- Menu news -->
                             <li class="header-menu__item">
-                                <a href="tintuc.html" class="header-menu__item-link">
+                                <a href="" class="header-menu__item-link">
                                     <i class="header-menu__item-icon fas fa-newspaper"></i>
                                     <p class="header-menu__item-name">Tin tức</p>
                                 </a>
@@ -977,8 +975,9 @@
 
             <nav class="header-mobile-nav">
                 <div class="header-mobile-nav__heading">
-                    <a href="#" class="header-mobile-nav__heading-link">
-                        <div class="header-mobile-nav__logo"></div>
+                    <a href="#" class="header-logo__link">
+                        <div class="header-mobile-nav__logo1" style="background-image: url('./assets/img/logo3.png');">
+                        </div>
                     </a>
                     <i class="header-mobile-nav__close fas fa-times"></i>
                 </div>
@@ -1266,30 +1265,80 @@
                 </ul>
             </nav>
         </div>
-        <div class="v2-login-area">
-            <form class="form-signin" action="https://mobilecity.vn/login" method="post">
-                <input type="hidden" name="_token" value="fzKzNPdwVMjvEWLv8wsimORTg4y92ecaAdAMObx9">
-                <div class="form-signin-heading text-center">
-                    <h1 class="sign-title">Đăng nhập</h1>
+
+        <div class="container">
+            <div class="grid wide">
+                <div class="container-breadcrumb">
+                    <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a itemprop="item" href="/"><span itemprop="name" content="Trang chủ"><i
+                                        class="fas fa-home"></i></i> Trang chủ</span></a>
+                            <meta itemprop="position" content="1" />
+                        </li>
+
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <i class="itemListElement-icon fa fa-angle-right"></i> <a itemprop="item"
+                                href="/tranglaptop.html"
+                                title="Điện thoại di động gi&#225; rẻ, ch&#237;nh h&#227;ng - Ho&#224;ng H&#224; Mobile"
+                                class="actived"><span itemprop="name" content="Laptop">Laptop</span></a>
+                            <meta itemprop="position" content="2" />
+                        </li>
+                    </ol>
                 </div>
-                <div class="v2-login-wrap">
-                    <input type="text" class="form-control" value="" placeholder="Tên đăng nhập/Email/Số điện thoại"
-                        autofocus="" name="login" required="">
-                    <input type="password" class="form-control" placeholder="Mật khẩu" id="password" name="password"
-                        required="">
-                    <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
-                    <button class="btn btn-lg btn-login" type="submit">Đăng nhập</button>
+                <div class="container-nav">
+                    <h2 class="container-nav__heading">Hãng sản xuất:</h2>
+                    <ul class="container-nav__list">
+                        <li class="container-nav__item">
+                            <a href="#" class="container-nav__item-link">MacBook</a>
+                        </li>
+                        <li class="container-nav__item">
+                            <a href="#" class="container-nav__item-link">Asus</a>
+                        </li>
+                        <li class="container-nav__item">
+                            <a href="#" class="container-nav__item-link">HP</a>
+                        </li>
+                        <li class="container-nav__item">
+                            <a href="#" class="container-nav__item-link">Lenovo</a>
+                        </li>
+                        <li class="container-nav__item">
+                            <a href="#" class="container-nav__item-link">Acer</a>
+                        </li>
+                        <li class="container-nav__item">
+                            <a href="#" class="container-nav__item-link">Dell</a>
+                        </li>
+                        <li class="container-nav__item">
+                            <a href="#" class="container-nav__item-link">MSI</a>
+                        </li>
+                        <li class="container-nav__item">
+                            <a href="#" class="container-nav__item-link">LG</a>
+                        </li>
+                        <li class="container-nav__item">
+                            <a href="#" class="container-nav__item-link">Gigabyte</a>
+                        </li>
+                        <li class="container-nav__item">
+                            <a href="#" class="container-nav__item-link">Huawei</a>
+                        </li>
+                        <li class="container-nav__item">
+                            <a href="#" class="container-nav__item-link">Microsoft</a>
+                        </li>
+
+                    </ul>
                 </div>
-                <div class="v2-login-bottom">
-                    <span class="v2-left"><span class="v2-hide">Chưa có tài khoản</span><a href="./dangki.html"
-                            class="v2-register-now"> ( Đăng ký ngay )</a>
-                    </span>
-                    <span class="v2-right">
-                        <a class="v2-remember-password" href=""> Quên mật khẩu ?</a>
-                    </span>
+                <div class="col l-12 m-12 c-12">
+                    <div class="container-product">
+                        <div class="row no-gutters laptop-products">
+                            <!-- Thêm sản phẩm -->
+                        </div>
+                    </div>
                 </div>
-            </form>
+                <div class="col l-12 m-12 c-12">
+                    <div class="container-view-more">
+                        <a href="#" class="container-btn-extend">Xem thêm laptop</a>
+                    </div>
+                </div>
+            </div>
         </div>
+
         <div class="footer">
             <div class="grid wide">
                 <div class="row">
@@ -1307,8 +1356,7 @@
                                         <div class="footer-place__item-location">
                                             Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
                                             <a href="#"
-                                                class="footer-place__item-link footer-place__item-link--highlight">|
-                                                Xem
+                                                class="footer-place__item-link footer-place__item-link--highlight">| Xem
                                                 bản đồ</a>
                                         </div>
                                         <div class="footer-place__item-contact">
@@ -1322,8 +1370,7 @@
                                         <div class="footer-place__item-location">
                                             Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
                                             <a href="#"
-                                                class="footer-place__item-link footer-place__item-link--highlight">|
-                                                Xem
+                                                class="footer-place__item-link footer-place__item-link--highlight">| Xem
                                                 bản đồ</a>
                                         </div>
                                         <div class="footer-place__item-contact">
@@ -1337,8 +1384,7 @@
                                         <div class="footer-place__item-location">
                                             Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
                                             <a href="#"
-                                                class="footer-place__item-link footer-place__item-link--highlight">|
-                                                Xem
+                                                class="footer-place__item-link footer-place__item-link--highlight">| Xem
                                                 bản đồ</a>
                                         </div>
                                         <div class="footer-place__item-contact">
@@ -1357,8 +1403,7 @@
                                         <div class="footer-place__item-location">
                                             Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
                                             <a href="#"
-                                                class="footer-place__item-link footer-place__item-link--highlight">|
-                                                Xem
+                                                class="footer-place__item-link footer-place__item-link--highlight">| Xem
                                                 bản đồ</a>
                                         </div>
                                         <div class="footer-place__item-contact">
@@ -1372,8 +1417,7 @@
                                         <div class="footer-place__item-location">
                                             Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
                                             <a href="#"
-                                                class="footer-place__item-link footer-place__item-link--highlight">|
-                                                Xem
+                                                class="footer-place__item-link footer-place__item-link--highlight">| Xem
                                                 bản đồ</a>
                                         </div>
                                         <div class="footer-place__item-contact">
@@ -1392,8 +1436,7 @@
                                         <div class="footer-place__item-location">
                                             Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
                                             <a href="#"
-                                                class="footer-place__item-link footer-place__item-link--highlight">|
-                                                Xem
+                                                class="footer-place__item-link footer-place__item-link--highlight">| Xem
                                                 bản đồ</a>
                                         </div>
                                         <div class="footer-place__item-contact">
@@ -1455,7 +1498,7 @@
 
                         <div class="footer-mail">
                             <form action="">
-                                <input type="text" required="" placeholder="Nhập email của bạn..." name="" id=""
+                                <input type="text" required placeholder="Nhập email của bạn..." name="" id=""
                                     class="footer-mail__input">
                                 <button class="footer-mail__btn">Gửi</button>
                             </form>
@@ -1488,7 +1531,7 @@
 
 
                     </div>
-                    <div class="col l-3 l-4-m m-5 c-10 l-o-0 l-o-0-m c-o-1 m-o-1" style="padding: 140px 45px;">
+                    <div class="col l-3 l-4-m m-5 c-10 l-o-0 l-o-0-m c-o-1 m-o-1" style="padding: 65px 45px;">
                         <div class="footer-certification"></div>
                         <div class="footer-power"></div>
                     </div>
@@ -1526,6 +1569,91 @@
                 </li>
             </ul>
         </div>
+
+        <!-- Button -->
+        <a href="#" class="go-to-top">
+            <i class="go-to-top__icon fas fa-chevron-circle-up"></i>
+        </a>
+
+        <a href="#" class="go-to-chat">
+            <i class="go-to-chat__icon fab fa-facebook-messenger"></i>
+        </a>
     </div>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script src="./js/tool.js"></script>
+    <script src="./js/fix.js"></script>
+    <script src="./js/laptop.js"></script>
+    <script>
+        const $ = document.querySelector.bind(document);
+        const $$ = document.querySelectorAll.bind(document);
+
+        const event = (() => {
+
+            return {
+                handleEvent() {
+                    // Search in mobile
+                    const mobileSearchBtn = $('.header-mobile-search');
+
+                    mobileSearchBtn.onclick = () => {
+                        $('.header-mobile-search-box__wrap').classList.toggle('active');
+                    };
+
+                    // Menu nav in mobile 
+                    const mobileMenuBtn = $('.header-mobile-menu');
+                    const overlayMobileScreen = $('.header-mobile-nav__overlay');
+                    const mobileNav = $('.header-mobile-nav');
+                    const mobileCloseNavBtn = $('.header-mobile-nav__close');
+
+                    function handleMobileNav() {
+                        overlayMobileScreen.classList.toggle('active');
+                        mobileNav.classList.toggle('active');
+                    };
+
+                    mobileMenuBtn.onclick = () => {
+                        handleMobileNav();
+                    };
+
+                    overlayMobileScreen.onclick = () => {
+                        handleMobileNav();
+                    };
+
+                    mobileCloseNavBtn.onclick = () => {
+                        handleMobileNav()
+                    };
+
+                    // Menu subnav in mobile 
+                    const mobileSubNavs = $$('.header-mobile-nav__item-select');
+
+                    Array.from(mobileSubNavs).forEach((mobileSubNav) => {
+                        mobileSubNav.onclick = () => {
+                            mobileSubNav.classList.toggle('active');
+                            mobileSubNav.firstElementChild.classList.toggle('active');
+                            if (mobileSubNav.nextElementSibling) {
+                                mobileSubNav.nextElementSibling.classList.toggle('active');
+                            };
+                        };
+                    });
+
+                    // Scroll Screen 
+                    const goToTopBtn = $('.go-to-top');
+                    document.onscroll = () => {
+                        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+                        if (scrollTop > 120) {
+                            goToTopBtn.classList.add('active');
+                        } else {
+                            goToTopBtn.classList.remove('active');
+                        }
+                    };
+                },
+                init() {
+                    this.handleEvent();
+                }
+            }
+
+        })();
+
+        event.init();
+    </script>
 </body>
+
+</html>

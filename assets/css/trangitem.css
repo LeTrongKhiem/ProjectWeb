@@ -828,6 +828,7 @@
     align-items: center;
     color: var(--white-color);
     cursor: pointer;
+    border: none;
 }
 
 .button-buy {
@@ -840,6 +841,7 @@
     align-items: center;
     color: var(--white-color);
     cursor: pointer;
+    border: none;
 }
 
 .button-add-cart .image {
