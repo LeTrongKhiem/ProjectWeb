@@ -1262,109 +1262,43 @@
         </ul>
     </nav>
 </div>
-<div class="">
-    <div class="v2-title">
-        <p>Vui lòng nhập mã xác minh</p>
-    </div>
-    <div class="v2-code-main">
-        <p>Mã xác minh của bạn được gửi bằng tin nhắn đến <b>tangminhthuan94hb@gmail.com</b></p>
-        <div class="v2-code">
-            <input type="hidden" class="code-check" name="code" maxlength="6" value="" style="width: 0.5px; height: 0px; outline: none; padding: 0px; border-width: 0px;">
-            <input class="v2-one-code" maxlength="1">
-            <input class="v2-one-code" maxlength="1" value="">
-            <input class="v2-one-code" maxlength="1" value="">
-            <input class="v2-one-code" maxlength="1" value="">
-            <input class="v2-one-code" maxlength="1" value="">
-            <input class="v2-one-code" maxlength="1" value="">
-        </div>
-        <input type="hidden" name="user_id" value="58097">
-        <input type="hidden" name="phone" value="tangminhthuan94hb@gmail.com">
-        <input type="hidden" name="step" value="2">
-        <p class="not-receive" style="display: none;">Bạn không nhận được mã? <a href="javascript:;" class="resend-code" data-phone="tangminhthuan94hb@gmail.com" data-is_email=""> (Gửi lại mã) </a></p>
-        <button class="v2-send-code" type="submit">Xác nhận</button>
-        <div>
-            <div class="v2-wait">Vui lòng chờ <span id="time-code"></span> giây để gửi lại.</div>
+<div class="v2-login-area">
+    <div class="verification-code">
+        <div class="v2-verification-code">
+            <form class="form-signin" action="https://mobilecity.vn/register" method="post">
+                <input type="hidden" name="_token" value="N8651YlFZlicNfhfwrNQHQX2VYydPFpzqHFNgVOM">
+                <div class="">
+                    <div class="v2-title">
+                        <p>Vui lòng nhập mã xác minh</p>
+                    </div>
+                    <div class="v2-code-main">
+                        <p>Mã xác minh của bạn được gửi bằng tin nhắn đến <b>email</b></p>
+                        <div class="v2-code">
+                            <input type="hidden" class="code-check" name="code" maxlength="6" value=""
+                                   style="width: 0.5px; height: 0px; outline: none; padding: 0px; border-width: 0px;">
+                            <input class="v2-one-code" maxlength="1">
+                            <input class="v2-one-code" maxlength="1" value="">
+                            <input class="v2-one-code" maxlength="1" value="">
+                            <input class="v2-one-code" maxlength="1" value="">
+                            <input class="v2-one-code" maxlength="1" value="">
+                            <input class="v2-one-code" maxlength="1" value="">
+                        </div>
+                        <input type="hidden" name="user_id" value="58097">
+                        <input type="hidden" name="phone" value="email">
+                        <input type="hidden" name="step" value="2">
+                        <p class="not-receive" style="display: block;">Bạn không nhận được mã? <a href=""
+                                                                                                  class="resend-code"
+                                                                                                  data-phone="email"
+                                                                                                  data-is_email=""> (Gửi
+                            lại mã) </a></p>
+                        <button class="v2-send-code" type="submit">Xác nhận</button>
+
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </div>
-<script>
-    $(document).ready(function(){
-        setTimeCode(parseInt('900'));
-        $('form').on('click', '.resend-code', function() {
-            var phone = $(this).attr('data-phone');
-            $.ajax({
-                url: '',
-                type:"POST",
-                data:{
-                    phone:phone,
-                },
-                success:function(result){
-                    if (result == 1) {
-                        $('.alert-danger').fadeOut();
-                        $("#check-re-password").remove();
-                        setTimeCode(900);
-                    } else {
-                        alert('Đã có lỗi xảy ra trong quá trình gửi lại mã, vui lòng thử lại sau!')
-                    }
-                },
-            });
-        })
-        $('.close-alert').on('click',function(){
-            $('.alert-success').fadeOut();
-        });
-
-        $('.close-error').on('click',function(){
-            $('.alert-danger').fadeOut();
-        });
-
-        $('#edit_post_date').on('click',function(){
-            $(this).parent().html('<input type="date" name="post_date" id="post_date" class="form-control">');
-        });
-        $('input.v2-one-code').on('keyup', function() {
-            var one_code = $(this).val();
-            if (!$.isNumeric(one_code)) {
-                $(this).val('');
-                $(this).focus();
-            } else {
-                var code = '';
-                $(".v2-one-code").each(function (i, v) {
-                    code += v.value;
-                });
-                $(".code-check").val(code);
-                $(this).next().focus();
-            }
-        });
-        $('form').on('click', 'input.v2-one-code', function() {
-            $('html, body').animate({
-                scrollTop: $('body').offset().top + 60
-            }, 300);
-        })
-        $(".form-signin").submit(function(e){
-            var full_code = $(".code-check").val();
-            if (full_code.length < 6) {
-                $(".v2-error-code").remove();
-                $(this).parent().prepend('<p class="v2-error-code v2-color-red v2-center" id="check-re-password">Mã xác thực không hợp lệ</p>');
-                e.preventDefault();
-            }
-        });
-    });
-
-    function setTimeCode(time) {
-        if (time <= 0) {
-            $('.not-receive').css('display', 'block');
-            return false;
-        }
-        $('.not-receive').css('display', 'none');
-        document.getElementById('time-code').innerHTML = time--;
-        interval_timecode = setInterval(() => {
-            document.getElementById('time-code').innerHTML = time--;
-            if (time < 0) {
-                $('.not-receive').css('display', 'block');
-                clearInterval(interval_timecode);
-            }
-        }, 1000);
-    }
-</script>
 <div class="footer">
     <div class="grid wide">
         <div class="row">
