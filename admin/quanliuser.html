@@ -60,23 +60,23 @@
                         <i class="fas fa-chart-line fa-fw me-3"></i><span>Thống kê</span></a>
                 </li>
                 <li class="sidenav-item">
-                    <a class="sidenav-link" href="">
+                    <a class="sidenav-link" href="./trangdathang.html">
                         <i class="fas fa-cart-plus fa-fw me-3"></i><span>Đặt hàng</span></a>
                 </li>
                 <li class="sidenav-item">
-                    <a class="sidenav-link" href="">
+                    <a class="sidenav-link" href="./quanliuser.html">
                         <i class="fas fa-user fa-fw me-3"></i><span>Quản lí người dùng</span></a>
                 </li>
                 <li class="sidenav-item">
-                    <a class="sidenav-link" href="">
+                    <a class="sidenav-link" href="./quanlisanpham.html">
                         <i class="fas fa-phone fa-fw me-3"></i><span>Quản lí điện thoại</span></a>
                 </li>
                 <li class="sidenav-item">
-                    <a class="sidenav-link" href="">
+                    <a class="sidenav-link" href="./quanlisanpham.html">
                         <i class="fas fa-users fa-fw me-3"></i><span>Quản lí phụ kiện</span></a>
                 </li>
                 <li class="sidenav-item">
-                    <a class="sidenav-link" href="">
+                    <a class="sidenav-link" href="./quanlitintuc.html">
                         <i class="fas fa-money-bill fa-fw me-3"></i><span>Quản lí tin tức</span></a>
                 </li>   
             </ul>
@@ -196,7 +196,7 @@
     <!--Main layout-->
     <main style="margin-top: 58px">
         <div class="container">
-            <h1 class="h5 text-center py-5 mb-0">User management</h1>
+            <h1 class="h5 text-center py-5 mb-0">Quản lí người dùng</h1>
 
             <!--Section: Content-->
             <section>
@@ -264,73 +264,115 @@
 <!-- Table editor -->
 <script>
     const advancedColumns = [
-        {
+    {
             width: 250,
-            label: "Company",
-            field: "company",
+            inputType: "number",
+            defaultValue: 1,
+            label: "ID",
+            field: "id",
         },
         {
             width: 250,
-            sort: false,
-            defaultValue: "Warsaw",
-            options: ["London", "Warsaw", "New York"],
-            inputType: "select",
-            label: "Office",
-            field: "office",
+            label: "Họ Tên",
+            field: "HoTen",
+        },
+        {
+            width: 250,
+            label: "Email",
+            field: "email",
         },
         {
             width: 250,
             inputType: "number",
-            defaultValue: 1,
-            label: "Employees",
-            field: "employees",
+            label: "SDT",
+            field: "sdt",
         },
         {
-            width: 100,
-            defaultValue: false,
-            inputType: "checkbox",
-            label: "International",
-            field: "international",
+            width: 250,
+            sort: false,
+            options: ["Nam", "Nữ", "Khác"],
+            inputType: "select",
+            label: "Giới tính",
+            field: "gt",
+        },
+        {
+            width: 250,
+            inputType: "date",
+            label: "Ngày sinh",
+            field: "dob",
+        },
+        {
+            width: 250,
+            label: "Mật Khẩu",
+            field: "mk",
         },
     ];
 
     const advancedRows = [
         {
-            company: "Smith & Johnson",
-            office: "London",
-            employees: 30,
-            international: true,
+            id: 1,
+            HoTen: "Lê Trọng Khiêm",
+            email: "19130102@st.hcmuaf.edu.vn",
+            sdt: "0372253243",
+            gt:"Nam",
+            dob: "16/04/2001",
+            mk:"lekhiem2001",
         },
         {
-            company: "P.J. Company",
-            office: "London",
-            employees: 80,
-            international: false,
+            id: 2,
+            HoTen: "Lê Trọng Khiêm",
+            email: "19130102@st.hcmuaf.edu.vn",
+            sdt: "0372253243",
+            gt:"Nam",
+            dob: "16/04/2001",
+            mk:"lekhiem2001",
         },
         {
-            company: "Food & Wine",
-            office: "London",
-            employees: 12,
-            international: false,
+            id: 3,
+            HoTen: "Lê Trọng Khiêm",
+            email: "19130102@st.hcmuaf.edu.vn",
+            sdt: "0372253243",
+            gt:"Nam",
+            dob: "16/04/2001",
+            mk:"lekhiem2001",
         },
         {
-            company: "IT Service",
-            office: "London",
-            employees: 17,
-            international: false,
+            id: 4,
+            HoTen: "Lê Trọng Khiêm",
+            email: "19130102@st.hcmuaf.edu.vn",
+            sdt: "0372253243",
+            gt:"Nam",
+            dob: "16/04/2001",
+            mk:"lekhiem2001",
         },
         {
-            company: "A. Jonson Gallery",
-            office: "London",
-            employees: 4,
-            international: false,
+            id: 5,
+            HoTen: "Lê Trọng Khiêm",
+            email: "19130102@st.hcmuaf.edu.vn",
+            sdt: "0372253243",
+            gt:"Nam",
+            dob: "16/04/2001",
+            mk:"lekhiem2001",
         },
         {
-            company: "F.A. Architects",
-            office: "London",
-            employees: 4,
-            international: false,
+            id: 6 ,
+            HoTen: "Lê Trọng Khiêm",
+            email: "19130102@st.hcmuaf.edu.vn",
+            sdt: "0372253243",
+            gt:"Nam",
+            dob: "16/04/2001",
+            mk:"lekhiem2001",
         },
+        {
+            id: 7,
+            HoTen: "Lê Trọng Khiêm",
+            email: "19130102@st.hcmuaf.edu.vn",
+            sdt: "0372253243",
+            gt:"Nam",
+            dob: "16/04/2001",
+            mk:"lekhiem2001",
+        },
+        
     ];
 
     const tableModal = new TableEditor(
