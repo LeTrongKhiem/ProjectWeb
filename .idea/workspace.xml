@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3171fd31-5f44-4c91-b43d-a700837d71a9" name="Changes" comment="update xacnhan" />
+    <list default="true" id="3171fd31-5f44-4c91-b43d-a700837d71a9" name="Changes" comment="update xacnhan">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/tintuc.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/tintuc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc.html" beforeDir="false" afterPath="$PROJECT_DIR$/tintuc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xacnhan.html" beforeDir="false" afterPath="$PROJECT_DIR$/xacnhan.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,6 +44,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project\ProjectWeb" />
+      <recent name="D:\Project\ProjectWeb\assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -142,7 +148,8 @@
       <workItem from="1639641842077" duration="103000" />
       <workItem from="1639828422839" duration="736000" />
       <workItem from="1640257667404" duration="5070000" />
-      <workItem from="1640397583471" duration="394000" />
+      <workItem from="1640397583471" duration="1604000" />
+      <workItem from="1640490788444" duration="7699000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m &quot;đăng nhập+đăng kí&quot;">
       <created>1636784533320</created>
@@ -172,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640397698319</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update xacnhan">
+      <created>1640398129814</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640398129814</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
