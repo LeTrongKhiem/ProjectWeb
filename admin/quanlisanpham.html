@@ -64,6 +64,10 @@
                         <i class="fas fa-cart-plus fa-fw me-3"></i><span>Đặt hàng</span></a>
                 </li>
                 <li class="sidenav-item">
+                    <a class="sidenav-link" href="./quanlinhanvien.html">
+                        <i class="fas fa-user fa-fw me-3"></i><span>Quản lí nhân viên</span></a>
+                </li>
+                <li class="sidenav-item">
                     <a class="sidenav-link" href="./quanliuser.html">
                         <i class="fas fa-user fa-fw me-3"></i><span>Quản lí người dùng</span></a>
                 </li>
@@ -196,7 +200,7 @@
     <!--Main layout-->
     <main style="margin-top: 58px">
         <div class="container">
-            <h1 class="h5 text-center py-5 mb-0">Quản lí người dùng</h1>
+            <h1 class="h5 text-center py-5 mb-0">Quản lí sản phẩm</h1>
 
             <!--Section: Content-->
             <section>
@@ -266,8 +270,6 @@
     const advancedColumns = [
     {
             width: 250,
-            inputType: "number",
-            defaultValue: 1,
             label: "Mã SP",
             field: "id",
         },
@@ -288,6 +290,12 @@
         },
         {
             width: 250,
+            inputType: "number",
+            label: "Giá",
+            field: "gia",
+        },
+        {
+            width: 250,
             label: "Tên thương hiệu",
             field: "tth",
         },
@@ -300,13 +308,40 @@
 
     const advancedRows = [
         {
-            id: 1,
-            HoTen: "Lê Trọng Khiêm",
-            email: "19130102@st.hcmuaf.edu.vn",
-            sdt: "0372253243",
-            gt:"Nam",
-            dob: "16/04/2001",
-            mk:"lekhiem2001",
+            id: "ip11",
+            linkanh: "./assets/img/dssp/iphone-xi.jpg",
+            linksp: "trangitem.jsp",
+            tsp: "iPhone 11",
+            gia: 15990000,
+            tth:"Apple",
+            lsp: "DT",
+        },
+        {
+            id: "ip11",
+            linkanh: "./assets/img/dssp/iphone-xi.jpg",
+            linksp: "trangitem.jsp",
+            tsp: "iPhone 11",
+            gia: 15990000,
+            tth:"Apple",
+            lsp: "DT",
+        },
+        {
+            id: "ip11",
+            linkanh: "./assets/img/dssp/iphone-xi.jpg",
+            linksp: "trangitem.jsp",
+            tsp: "iPhone 11",
+            gia: 15990000,
+            tth:"Apple",
+            lsp: "DT",
+        },
+        {
+            id: "ip11",
+            linkanh: "./assets/img/dssp/iphone-xi.jpg",
+            linksp: "trangitem.jsp",
+            tsp: "iPhone 11",
+            gia: 15990000,
+            tth:"Apple",
+            lsp: "DT",
         },
         
     ];
