@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Quản lí người dùng</title>
+    <title>Quản lí mô tả sản phẩm</title>
     <!-- MDB icon -->
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
@@ -86,7 +86,7 @@
                 <li class="sidenav-item">
                     <a class="sidenav-link" href="./quanlitintuc.html">
                         <i class="fas fa-money-bill fa-fw me-3"></i><span>Quản lí mô tả sản phẩm</span></a>
-                </li>  
+                </li> 
             </ul>
         </nav>
         <!-- Sidenav -->
@@ -204,7 +204,7 @@
     <!--Main layout-->
     <main style="margin-top: 58px">
         <div class="container">
-            <h1 class="h5 text-center py-5 mb-0">Quản lí người dùng</h1>
+            <h1 class="h5 text-center py-5 mb-0">Quản lí mô tả sản phẩm</h1>
 
             <!--Section: Content-->
             <section>
@@ -280,131 +280,78 @@
             field: "id",
         },
         {
-            width: 250,
-            label: "Họ Tên",
-            field: "HoTen",
-        },
-        {
-            width: 250,
-            label: "Email",
-            field: "email",
-        },
-        {
-            width: 250,
-            inputType: "number",
-            label: "SDT",
-            field: "sdt",
-        },
-        {
-            width: 250,
-            sort: false,
-            options: ["Nam", "Nữ", "Khác"],
-            inputType: "select",
-            label: "Giới tính",
-            field: "gt",
-        },
-        {
-            width: 250,
-            inputType: "date",
-            label: "Ngày sinh",
-            field: "dob",
-        },
-        {
-            width: 250,
-            label: "Mật Khẩu",
-            field: "mk",
-        },
-        {
             width: 200,
-            label: "Active",
-            defaultValue: 0,
-            field: "ac",
+            label: "Mã SP",
+            field: "msp",
         },
         {
-            width: 200,
-            label: "Code",
-            field: "code",
+            width: 250,
+            label: "Tên Sản Phẩm",
+            field: "tsp",
         },
+        {
+            width: 250,
+            label: "Tiêu đề 1",
+            field: "td1",
+        },
+        {
+            width: 250,
+            label: "Mô tả 1",
+            field: "mt1",
+        },
+        {
+            width: 250,
+            label: "Link ảnh 1",
+            field: "a1",
+        },{
+            width: 250,
+            label: "Tiêu đề 2",
+            field: "td2",
+        },
+        {
+            width: 250,
+            label: "Mô tả 2",
+            field: "mt2",
+        },
+        {
+            width: 250,
+            label: "Link ảnh 2",
+            field: "a2",
+        },{
+            width: 250,
+            label: "Tiêu đề 3",
+            field: "td3",
+        },
+        {
+            width: 250,
+            label: "Mô tả 3",
+            field: "mt3",
+        },
+        {
+            width: 250,
+            label: "Link ảnh 3",
+            field: "a3",
+        },
+        
     ];
 
     const advancedRows = [
         {
             id: 1,
-            HoTen: "Lê Trọng Khiêm",
-            email: "19130102@st.hcmuaf.edu.vn",
-            sdt: "0372253243",
-            gt:"Nam",
-            dob: "16/04/2001",
-            mk:"lekhiem2001",
-            ac: 0,
-            code: "asdasdasd",
+            msp: "ip11",
+            tsp: "iPhone11",
+            td1: "iphonw 11",
+            mt1:"Apple",
+            a1: "./img/apple/ip11.jpg",
+            td2: "iphonw 11",
+            mt2:"Apple",
+            a2: "./img/apple/ip11.jpg",
+            td3: "iphonw 11",
+            mt3:"Apple",
+            a3: "./img/apple/ip11.jpg",
+            
         },
-        {
-            id: 2,
-            HoTen: "Lê Trọng Khiêm",
-            email: "19130102@st.hcmuaf.edu.vn",
-            sdt: "0372253243",
-            gt:"Nam",
-            dob: "16/04/2001",
-            mk:"lekhiem2001",
-            ac: 0,
-            code: "asdasdasd",
-        },
-        {
-            id: 3,
-            HoTen: "Lê Trọng Khiêm",
-            email: "19130102@st.hcmuaf.edu.vn",
-            sdt: "0372253243",
-            gt:"Nam",
-            dob: "16/04/2001",
-            mk:"lekhiem2001",
-            ac: 0,
-            code: "asdasdasd",
-        },
-        {
-            id: 4,
-            HoTen: "Lê Trọng Khiêm",
-            email: "19130102@st.hcmuaf.edu.vn",
-            sdt: "0372253243",
-            gt:"Nam",
-            dob: "16/04/2001",
-            mk:"lekhiem2001",
-            ac: 0,
-            code: "asdasdasd",
-        },
-        {
-            id: 5,
-            HoTen: "Lê Trọng Khiêm",
-            email: "19130102@st.hcmuaf.edu.vn",
-            sdt: "0372253243",
-            gt:"Nam",
-            dob: "16/04/2001",
-            mk:"lekhiem2001",
-            ac: 0,
-            code: "asdasdasd",
-        },
-        {
-            id: 6 ,
-            HoTen: "Lê Trọng Khiêm",
-            email: "19130102@st.hcmuaf.edu.vn",
-            sdt: "0372253243",
-            gt:"Nam",
-            dob: "16/04/2001",
-            mk:"lekhiem2001",
-            ac: 0,
-            code: "asdasdasd",
-        },
-        {
-            id: 7,
-            HoTen: "Lê Trọng Khiêm",
-            email: "19130102@st.hcmuaf.edu.vn",
-            sdt: "0372253243",
-            gt:"Nam",
-            dob: "16/04/2001",
-            mk:"lekhiem2001",
-            ac: 0,
-            code: "asdasdasd",
-        },
+       
         
     ];
 

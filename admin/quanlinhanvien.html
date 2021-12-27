@@ -173,6 +173,10 @@
                             <li>
                                 <a class="dropdown-item" href="#"><i class="portugal flag"></i>Português</a>
                             </li>
+                            <li class="sidenav-item">
+                                <a class="sidenav-link" href="./quanlitintuc.html">
+                                    <i class="fas fa-money-bill fa-fw me-3"></i><span>Quản lí mô tả sản phẩm</span></a>
+                            </li> 
                         </ul>
                     </li>
 
@@ -269,7 +273,7 @@
 <script>
     const advancedColumns = [
     {
-            width: 250,
+            width: 100,
             inputType: "number",
             defaultValue: 1,
             label: "ID",
@@ -287,17 +291,18 @@
         },
         {
             width: 250,
-            inputType: "number",
             label: "SDT",
             field: "sdt",
         },
         {
             width: 250,
-            sort: false,
-            options: ["Nam", "Nữ", "Khác"],
-            inputType: "select",
-            label: "Giới tính",
-            field: "gt",
+            label: "TenDN",
+            field: "tendn",
+        },
+        {
+            width: 250,
+            label: "Mật khẩu",
+            field: "mk",
         },
         {
             width: 250,
@@ -306,20 +311,15 @@
             field: "dob",
         },
         {
-            width: 250,
-            label: "Mật Khẩu",
-            field: "mk",
-        },
-        {
             width: 200,
-            label: "Active",
+            label: "Role",
             defaultValue: 0,
-            field: "ac",
+            field: "role",
         },
         {
             width: 200,
-            label: "Code",
-            field: "code",
+            label: "Quyền",
+            field: "quyen",
         },
     ];
 
@@ -329,78 +329,13 @@
             HoTen: "Lê Trọng Khiêm",
             email: "19130102@st.hcmuaf.edu.vn",
             sdt: "0372253243",
-            gt:"Nam",
-            dob: "16/04/2001",
+            tendn: "lekhiem2001",
             mk:"lekhiem2001",
-            ac: 0,
-            code: "asdasdasd",
-        },
-        {
-            id: 2,
-            HoTen: "Lê Trọng Khiêm",
-            email: "19130102@st.hcmuaf.edu.vn",
-            sdt: "0372253243",
-            gt:"Nam",
             dob: "16/04/2001",
-            mk:"lekhiem2001",
-            ac: 0,
-            code: "asdasdasd",
+            role: 1,
+            quyen: "Admin",
         },
-        {
-            id: 3,
-            HoTen: "Lê Trọng Khiêm",
-            email: "19130102@st.hcmuaf.edu.vn",
-            sdt: "0372253243",
-            gt:"Nam",
-            dob: "16/04/2001",
-            mk:"lekhiem2001",
-            ac: 0,
-            code: "asdasdasd",
-        },
-        {
-            id: 4,
-            HoTen: "Lê Trọng Khiêm",
-            email: "19130102@st.hcmuaf.edu.vn",
-            sdt: "0372253243",
-            gt:"Nam",
-            dob: "16/04/2001",
-            mk:"lekhiem2001",
-            ac: 0,
-            code: "asdasdasd",
-        },
-        {
-            id: 5,
-            HoTen: "Lê Trọng Khiêm",
-            email: "19130102@st.hcmuaf.edu.vn",
-            sdt: "0372253243",
-            gt:"Nam",
-            dob: "16/04/2001",
-            mk:"lekhiem2001",
-            ac: 0,
-            code: "asdasdasd",
-        },
-        {
-            id: 6 ,
-            HoTen: "Lê Trọng Khiêm",
-            email: "19130102@st.hcmuaf.edu.vn",
-            sdt: "0372253243",
-            gt:"Nam",
-            dob: "16/04/2001",
-            mk:"lekhiem2001",
-            ac: 0,
-            code: "asdasdasd",
-        },
-        {
-            id: 7,
-            HoTen: "Lê Trọng Khiêm",
-            email: "19130102@st.hcmuaf.edu.vn",
-            sdt: "0372253243",
-            gt:"Nam",
-            dob: "16/04/2001",
-            mk:"lekhiem2001",
-            ac: 0,
-            code: "asdasdasd",
-        },
+        
         
     ];
 
