@@ -180,5 +180,12 @@
     .footer-nav-mobile__list {
         display: flex;
     }
+    .btn-checkout{
+        width: 100% !important;
+    }
+    .user-profile-left{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 
 }
